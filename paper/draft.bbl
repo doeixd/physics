@@ -72,15 +72,20 @@ O.~Bohigas, M.~J. Giannoni, and C.~Schmit.
   fluctuation laws.
 \newblock {\em Physical Review Letters}, 52(1):1--4, 1984.
 
+\bibitem{Berry1977}
+Michael~V. Berry.
+\newblock Regular and irregular motion.
+\newblock In {\em Les Houches Lecture Series}, volume~36, pages 1--50.
+  North-Holland, 1977.
+
+\bibitem{Deutsch1991}
+J.~M. Deutsch.
+\newblock Quantum statistical mechanics in a closed system.
+\newblock {\em Physical Review A}, 43(4):2046--2049, 1991.
+
 \bibitem{PorterThomas1956}
 C.~E. Porter and R.~G. Thomas.
 \newblock Fluctuations of nuclear reaction widths.
 \newblock {\em Physical Review}, 104(2):483--491, 1956.
-
-\bibitem{Johansson2012}
-JR~Johansson, PD~Nation, and Franco Nori.
-\newblock Qutip: An open-source python framework for the dynamics of open
-  quantum systems.
-\newblock {\em Computer Physics Communications}, 183(8):1760--1772, 2012.
 
 \end{thebibliography}
