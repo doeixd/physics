@@ -4,14 +4,10 @@
 \usepackage{amsmath, amssymb, amsthm}
 \usepackage{physics}
 \usepackage{graphicx}
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,
-    urlcolor=cyan,
-    citecolor=red,
-}
+\usepackage[colorlinks=false]{hyperref}
+
+% Increase paragraph spacing
+\setlength{\parskip}{1em}
 \usepackage{cleveref}
 \usepackage{booktabs}
 \usepackage[table]{xcolor}
@@ -39,7 +35,7 @@
 We propose a deterministic, $\psi$-ontic solution to the measurement problem achieving single outcomes without hidden particle variables or branching worlds. We demonstrate that violation of Bell locality is necessary for any theory preserving determinism, measurement independence, and single outcomes; our framework satisfies this via wavefunction non-separability while adding no auxiliary non-local dynamics and preserving signaling locality. This realizes minimal non-locality, distinguishing us from Bohmian mechanics (which adds non-local guidance) and superdeterminism (which violates measurement independence). The Born rule emerges from apparatus thermal state typicality. Crucially, we predict testable deviations: thermal noise reduction in squeezed-apparatus measurements scaling as $e^{-4N_{\text{eff}}r}$ ($\sim 2 \times 10^{-9}$ reduction for circuit QED with $N_{\text{eff}} \approx 5, r \approx 1$), distinguishing our theory from standard quantum mechanics.
 \end{abstract}
 
-\vspace{1em}
+\vspace{2em}
 
 \section{Introduction}
 
@@ -84,7 +80,7 @@ This framework resolves the tension between Realism and the Kochen-Specker theor
 
 This distinction is crucial. Bell's theorem proves that any deterministic theory reproducing quantum correlations must either violate Bell locality or violate measurement independence. We embrace the former: our framework violates Bell locality through wavefunction non-separability, as any deterministic single-outcome theory must.
 
-However, we achieve this with \textbf{minimal non-locality}: we add no non-local forces (unlike Bohmian guidance), no measurement dependence (unlike superdeterminism), and preserve relativistic causality. The collapse dynamics consist entirely of local processes (interaction, information diffusion, threshold detection) operating on the global quantum state.
+However, we achieve this with minimal non-locality: we add no non-local forces (unlike Bohmian guidance), no measurement dependence (unlike superdeterminism), and preserve relativistic causality. The collapse dynamics consist entirely of local processes (interaction, information diffusion, threshold detection) operating on the global quantum state.
 
 By rejecting hidden particle variables and many-worlds while preserving measurement independence, we achieve what we prove is the minimal non-locality possible for a deterministic single-outcome theory. The apparent randomness arises not from fundamental indeterminacy but from lack of control over the apparatus microstate's $\sim 10^{23}$ thermal degrees of freedom.
 
@@ -94,7 +90,7 @@ We establish an impossibility result: Any theory that is Deterministic, Measurem
 
 Our contribution is the construction of the unique class of theories that satisfies these constraints with Zero Dynamic Non-Locality (no guidance equations), achieving the exact limit of how local a deterministic theory is allowed to be.
 
-\paragraph{What we do not claim:} We do not claim to restore Bell locality or eliminate quantum non-locality. Bell's theorem proves this impossible for deterministic single-outcome theories. We claim only to \textbf{add no additional non-locality} beyond the wavefunction's inherent non-separability.
+\paragraph{What we do not claim:} We do not claim to restore Bell locality or eliminate quantum non-locality. Bell's theorem proves this impossible for deterministic single-outcome theories. We claim only to add no additional non-locality beyond the wavefunction's inherent non-separability.
 
 \subsection{Conceptual Foundations: Information and Causality}
 
@@ -160,7 +156,7 @@ $J^\mu$ & Information current density \\
 
 \subsection{Ontological Commitment: Wavefunction Realism}
 
-We adopt a \textbf{wavefunction-realist} ontology: the quantum state $|\psi\rangle$ is the fundamental physical entity, existing in configuration space rather than physical space. From this perspective, entanglement represents \textbf{holism} rather than \textbf{action-at-a-distance}. The apparent non-locality in physical space arises because configuration space does not factorize for entangled systems.
+We adopt a wavefunction-realist ontology: the quantum state $|\psi\rangle$ is the fundamental physical entity, existing in configuration space rather than physical space. From this perspective, entanglement represents holism rather than action-at-a-distance. The apparent non-locality in physical space arises because configuration space does not factorize for entangled systems.
 
 \subsection{Ontology and Basic Postulates}
 
@@ -172,7 +168,7 @@ Crucially, our ontology explicitly excludes hidden variables in particles, multi
 
 It is crucial to precisely classify this framework within the taxonomy of quantum interpretations to avoid category errors regarding no-go theorems.
 
-Standard hidden variable theories (such as Pilot Wave) are typically \textbf{non-contextual} (variables adhere to the particle regardless of measurement) and \textbf{non-local} (variables communicate instantaneously). Our framework differs fundamentally:
+Standard hidden variable theories (such as Pilot Wave) are typically non-contextual (variables adhere to the particle regardless of measurement) and non-local (variables communicate instantaneously). Our framework differs fundamentally:
 
 \begin{enumerate}
     \item \textbf{$\psi$-Ontology:} We posit no variables for the system $\psi_S$ other than the wavefunction itself. The system is completely described by $\ket{\psi_S}$.
@@ -206,14 +202,14 @@ This distinction immunizes the theory against the standard no-go theorems:
     \item \textbf{Kochen-Specker Theorem:} This theorem forbids non-contextual hidden variables. However, in our framework, changing the measurement arrangement (e.g., rotating a polarizer) changes the Hamiltonian and the physical bulk of the apparatus involved, thereby selecting a different set of environmental degrees of freedom $\ket{\psi_A'}$. The variables are inherently context-dependent, rendering Kochen-Specker inapplicable.
 
 \subsubsection{Contextual Realism and Kochen-Specker}
-We explicitly classify this framework as a \textbf{Contextual} Hidden Variable theory. The determinants of the outcome reside in the apparatus microstate $\ket{\psi_A}$, which defines the measurement context.
+We explicitly classify this framework as a Contextual Hidden Variable theory. The determinants of the outcome reside in the apparatus microstate $\ket{\psi_A}$, which defines the measurement context.
 
 The Kochen-Specker theorem forbids assigning pre-existing values to all observables independent of the measurement arrangement. Our framework respects this: changing the measurement setting (e.g., rotating a polarizer) physically changes the Hamiltonian $\hat{H}_{\text{int}}$ and recruits a different set of environmental degrees of freedom $\ket{\psi_A'}$. Thus, the "hidden variables" are context-dependent by definition. The outcome is not a property of the particle alone, but a property of the specific interaction event.
 \end{itemize}
 
-Thus, we occupy a precise logical space: a \textbf{Contextual, Deterministic, $\psi$-Ontic framework} that preserves the freedom of choice and requires no non-local forces, only non-local states.
+Thus, we occupy a precise logical space: a Contextual, Deterministic, $\psi$-Ontic framework that preserves the freedom of choice and requires no non-local forces, only non-local states.
 
-This contextuality has a clear physical interpretation: changing the measurement arrangement (e.g., rotating a polarizer) alters the physical Hamiltonian $\hat{H}_{\text{int}}$ and thus the specific environmental degrees of freedom $\ket{\psi_A}$ that participate in the collapse. The outcome is therefore not a property of the system alone, but of the system-apparatus combination—a form of \textbf{relational determinism}. This resolves the Kochen-Specker paradox by making outcomes explicitly apparatus-dependent, not predetermined by system properties independent of context. Importantly, this contextuality is \textbf{empirically accessible}: engineering the apparatus quantum state (e.g., via squeezing) should alter outcome statistics, providing a testable distinction from non-contextual hidden variable theories.
+This contextuality has a clear physical interpretation: changing the measurement arrangement (e.g., rotating a polarizer) alters the physical Hamiltonian $\hat{H}_{\text{int}}$ and thus the specific environmental degrees of freedom $\ket{\psi_A}$ that participate in the collapse. The outcome is therefore not a property of the system alone, but of the system-apparatus combination—a form of relational determinism. This resolves the Kochen-Specker paradox by making outcomes explicitly apparatus-dependent, not predetermined by system properties independent of context. Importantly, this contextuality is empirically accessible: engineering the apparatus quantum state (e.g., via squeezing) should alter outcome statistics, providing a testable distinction from non-contextual hidden variable theories.
 
 We establish the theory on five postulates:
 \begin{enumerate}
@@ -234,7 +230,7 @@ Resonant Amplification: Decoherence rate $\Gamma_{ij}$ acts as resonant coupling
 
 \subsection{The Master Equation}
 
-The complete dynamics are governed by a master equation in density matrix form that explicitly separates three distinct physical processes. We contribute a dynamical model where 'Collapse' is not an ad-hoc discontinuity, but a standard \textbf{Symmetry Breaking Phase Transition}. The collapse functional maps the instability of the superposition to the gain saturation of the apparatus, triggered when the information current exceeds the Landauer limit ($\Delta_{crit}$).
+The complete dynamics are governed by a master equation in density matrix form that explicitly separates three distinct physical processes. We contribute a dynamical model where 'Collapse' is not an ad-hoc discontinuity, but a standard Symmetry Breaking Phase Transition. The collapse functional maps the instability of the superposition to the gain saturation of the apparatus, triggered when the information current exceeds the Landauer limit ($\Delta_{crit}$).
 
 \begin{equation}
     \boxed{
@@ -332,59 +328,59 @@ where $b$ is Bob's outcome. This establishes parameter independence and thus no-
 
 Standard collapse models (e.g., CSL) violate energy conservation because the stochastic noise field is assumed to be an infinite energy reservoir. In our framework, the collapse is not driven by an external field, but by the Interaction Hamiltonian $H_{int}$.
 
-We posit that the localization of the wavefunction is an \textbf{energy-exchange process}. The narrowing of the wavepacket ($\Delta p \uparrow$) is powered by work performed by the macroscopic apparatus. Consequently, the collapse is self-limiting via **Hamiltonian Back-Reaction**:
+We posit that the localization of the wavefunction is an energy-exchange process. The narrowing of the wavepacket ($\Delta p \uparrow$) is powered by work performed by the macroscopic apparatus. Consequently, the collapse is self-limiting via Hamiltonian Back-Reaction:
 $$ \Delta E_{system} + \Delta E_{apparatus} = 0 $$
 If the energy required to localize the particle to a width $\delta x$ exceeds the interaction energy available in the apparatus's coupling bandwidth ($V_{int}$), the collapse halts. The particle does not collapse to a geometric point (which would require infinite energy), but to the \textbf{equilibrium width} where the kinetic energy cost matches the interaction potential depth. This naturally imposes a physical momentum cutoff without ad-hoc postulates, ensuring global energy conservation.
 
 \subsection{The Information Integration Functional}
 
-\begin{figure}[htbp]
-    \centering
-    % Figure: Causal structure diagram
-    % Description: Three-panel figure showing spacetime structure and information dynamics
-    %
-    % Panel A (Left): Spacetime diagram (2D, x-axis: space, y-axis: time)
-    %   - Red dot: measurement event at origin
-    %   - Blue shaded region: backward light cone (45° lines)
-    %   - Green curves: environmental particle worldlines entering light cone
-    %   - Orange region: information spreading (forward light cone post-collapse)
-    %   - Annotations: "System-Apparatus interaction", "Environment enters", "Threshold crossed"
-    %
-    % Panel B (Center): Information accumulation plot
-    %   - X-axis: Time (0 to 10τ, where τ = decoherence timescale)
-    %   - Y-axis: Information current I_i (arbitrary units, 0 to 2Δ_crit)
-    %   - Two curves: I_0(t) (solid blue, winning branch) and I_1(t) (dashed red, losing branch)
-    %   - Horizontal line at y = Δ_crit (threshold)
-    %   - Vertical line marking threshold crossing time t*
-    %   - Shaded region: ΔI = I_0 - I_1 exceeds threshold
-    %
-    % Panel C (Right): Apparatus state comparison
-    %   - Two Bloch spheres or Hilbert space projections
-    %   - Top: Haar-typical state (random distribution, labeled "Generic thermal state")
-    %   - Bottom: Adversarial state (special configuration, labeled "Engineered state")
-    %   - Arrows showing projections onto outcome pointer states |A_0⟩, |A_1⟩
-    %   - Overlap values X_i displayed
-    %
-    % Generation notes: Use matplotlib with spacetime diagram (panel A via plot/fill),
-    % time series (panel B via plot with threshold line), and either 3D Bloch sphere
-    % rendering or 2D Hilbert space projection (panel C). Colors: blues/reds for branches.
-    %
-    % \includegraphics[width=0.95\linewidth]{fig_causal_structure}
-    \fbox{\textit{[Figure: Causal structure of information integration. Panel A: Spacetime diagram with measurement event (red dot), backward light cone (blue), and environmental worldlines (green). Panel B: Information accumulation vs. time showing threshold crossing. Panel C: Haar-typical vs. adversarial apparatus states.]}}
-    \caption{Causal structure of information integration. \textbf{(A)} Spacetime diagram showing measurement event, light cones, and environmental coupling. \textbf{(B)} Information integration $\cI_i(t)$ for two outcome branches, illustrating threshold crossing at t*. \textbf{(C)} Comparison of apparatus quantum states: generic thermal (Haar-typical) versus engineered (adversarial), showing different overlap distributions $X_i$ with pointer states.}
-    \label{fig:causal_structure}
-\end{figure}
+% \begin{figure}[htbp]
+%     \centering
+%     % Figure: Causal structure diagram
+%     % Description: Three-panel figure showing spacetime structure and information dynamics
+%     %
+%     % Panel A (Left): Spacetime diagram (2D, x-axis: space, y-axis: time)
+%     %   - Red dot: measurement event at origin
+%     %   - Blue shaded region: backward light cone (45° lines)
+%     %   - Green curves: environmental particle worldlines entering light cone
+%     %   - Orange region: information spreading (forward light cone post-collapse)
+%     %   - Annotations: "System-Apparatus interaction", "Environment enters", "Threshold crossed"
+%     %
+%     % Panel B (Center): Information accumulation plot
+%     %   - X-axis: Time (0 to 10τ, where τ = decoherence timescale)
+%     %   - Y-axis: Information current I_i (arbitrary units, 0 to 2Δ_crit)
+%     %   - Two curves: I_0(t) (solid blue, winning branch) and I_1(t) (dashed red, losing branch)
+%     %   - Horizontal line at y = Δ_crit (threshold)
+%     %   - Vertical line marking threshold crossing time t*
+%     %   - Shaded region: ΔI = I_0 - I_1 exceeds threshold
+%     %
+%     % Panel C (Right): Apparatus state comparison
+%     %   - Two Bloch spheres or Hilbert space projections
+%     %   - Top: Haar-typical state (random distribution, labeled "Generic thermal state")
+%     %   - Bottom: Adversarial state (special configuration, labeled "Engineered state")
+%     %   - Arrows showing projections onto outcome pointer states |A_0⟩, |A_1⟩
+%     %   - Overlap values X_i displayed
+%     %
+%     % Generation notes: Use matplotlib with spacetime diagram (panel A via plot/fill),
+%     % time series (panel B via plot with threshold line), and either 3D Bloch sphere
+%     % rendering or 2D Hilbert space projection (panel C). Colors: blues/reds for branches.
+%     %
+%     % \includegraphics[width=0.95\linewidth]{fig_causal_structure}
+%     \fbox{\textit{[Figure: Causal structure of information integration. Panel A: Spacetime diagram with measurement event (red dot), backward light cone (blue), and environmental worldlines (green). Panel B: Information accumulation vs. time showing threshold crossing. Panel C: Haar-typical vs. adversarial apparatus states.]}}
+%     \caption{Causal structure of information integration. \textbf{(A)} Spacetime diagram showing measurement event, light cones, and environmental coupling. \textbf{(B)} Information integration $\cI_i(t)$ for two outcome branches, illustrating threshold crossing at t*. \textbf{(C)} Comparison of apparatus quantum states: generic thermal (Haar-typical) versus engineered (adversarial), showing different overlap distributions $X_i$ with pointer states.}
+%     \label{fig:causal_structure}
+% \end{figure}
 
 To quantify ``how much information about an outcome has spread,'' we introduce the information integration functional based on environment-mediated decoherence. The central quantity is the \emph{information current density} $\mathcal{J}_{ij}^\mu(x)$, representing the flow of distinguishability between branches $i$ and $j$ through environmental coupling.
 
 \subsubsection{Information as Physical Distinguishability}
-We emphasize that in this framework, "information" refers strictly to \textbf{physical distinguishability} (orthogonality of environmental states), carrying no epistemic or subjective connotation. The Information Current $J^\mu$ is a measure of how rapidly the environmental states entangled with different system branches become orthogonal. When we state that "information spreads," we mean that the overlap $\langle E_i(t) | E_j(t) \rangle$ decays toward zero.
+We emphasize that in this framework, "information" refers strictly to physical distinguishability (orthogonality of environmental states), carrying no epistemic or subjective connotation. The Information Current $J^\mu$ is a measure of how rapidly the environmental states entangled with different system branches become orthogonal. When we state that "information spreads," we mean that the overlap $\langle E_i(t) | E_j(t) \rangle$ decays toward zero.
 
 \subsubsection{Physical Mechanism: Environment-Mediated Coupling}
 
 A crucial point concerns the physical mechanism by which information flows between outcome branches. Consider a Stern-Gerlach measurement where the system Hamiltonian is $\hat{H}_S = -\mu \sigma_z B(z)$. One might naively expect information flow to arise from direct coupling terms like $\langle \uparrow | \sigma_z | \downarrow \rangle$. However, since $\sigma_z$ is diagonal in the spin basis, this matrix element vanishes identically, yielding no direct information exchange.
 
-The resolution is that information exchange occurs not through the system Hamiltonian directly, but through \textbf{environment-mediated decoherence}. The physical process unfolds as follows:
+The resolution is that information exchange occurs not through the system Hamiltonian directly, but through environment-mediated decoherence. The physical process unfolds as follows:
 
 \begin{enumerate}
     \item The system couples to apparatus: $\hat{H}_{\text{int}} = -\mu \sigma_z B(z)$ creates spatial separation of spin-up and spin-down components
@@ -405,13 +401,13 @@ This formula explicitly links the information current to physical environmental 
 
 To ensure compatibility with special relativity, the information integration mechanism must not rely on a preferred foliation of spacetime. We define the accumulation of distinguishing information using a manifestly covariant 4-current approach.
 
-Let $J^\mu_{ij}(x)$ be the \textbf{Information 4-Current Density} distinguishing branches $i$ and $j$ at spacetime event $x$. This is defined as:
+Let $J^\mu_{ij}(x)$ be the Information 4-Current Density distinguishing branches $i$ and $j$ at spacetime event $x$. This is defined as:
 \begin{equation}
     J^\mu_{ij}(x) = \gamma \cdot \mathcal{C}_{ij}(x) \cdot u^\mu_{env}(x)
 \end{equation}
 where $\mathcal{C}_{ij}(x) = |\rho_{ij}(x)| \sqrt{D_{ij}(x)}$ is the local coherence density (a scalar field), and $u^\mu_{env}$ is the 4-velocity of the local environmental degrees of freedom (the ``bath'').
 
-The total information accumulated for outcome $k$ is not an integral over space at a time $t$, but an integral over the \textbf{causal past} (backward light cone) of the interaction locus. For a local interaction event centered at spacetime coordinate $x_0$, the information functional is:
+The total information accumulated for outcome $k$ is not an integral over space at a time $t$, but an integral over the causal past (backward light cone) of the interaction locus. For a local interaction event centered at spacetime coordinate $x_0$, the information functional is:
 \begin{equation}
     \cI_k(x_0) = \int_{J^-(x_0)} d^4x \sqrt{-g} \, \sum_{j \neq k} \sqrt{J^\mu_{kj} J_{\mu, kj}}
     \label{eq:info_functional}
@@ -428,7 +424,7 @@ The collapse itself is modeled as a localized event that modifies the future lig
 
 \subsubsection{Derivation of $\Delta_{\text{crit}}$}
 
-A key requirement of our theory is that the collapse threshold $\Delta_{\text{crit}}$ is not an arbitrary constant but a derived scale based on physical principles. We postulate that the threshold corresponds to the \textbf{minimum information redundancy} required to secure a classical fact.
+A key requirement of our theory is that the collapse threshold $\Delta_{\text{crit}}$ is not an arbitrary constant but a derived scale based on physical principles. We postulate that the threshold corresponds to the minimum information redundancy required to secure a classical fact.
 
 From Quantum Darwinism \cite{Zurek2009}, a state becomes objective when many independent observers can access information about it. We define the critical redundancy $N_{\text{min}}$ as the number of environmental bits needed to encode the maximum system information $S_{\text{max}} = \log_2 d_S$.
 
@@ -438,9 +434,9 @@ For a specific system like Stern-Gerlach (qubit, $d_S=2$), $\Delta_{\text{crit}}
     N_{\text{min}} = \frac{S_{\text{max}}}{s_{\text{bit}}} \approx \frac{\log d_S}{k_B \ln 2}
 \end{equation}
 
-The threshold $\Delta_{\text{crit}}$ is not arbitrary; it represents the \textbf{Thermodynamic Stability Limit}.
+The threshold $\Delta_{\text{crit}}$ is not arbitrary; it represents the Thermodynamic Stability Limit.
 For a measurement to be 'definite,' the environmental record must be irreversible. According to Landauer's Principle, the minimum energy required to make a bit transition irreversible is $E \sim k_B T \ln 2$.
-We therefore define $\Delta_{\text{crit}}$ as the accumulation of information current corresponding to an action $S \sim \hbar$ such that the associated energy fluctuation exceeds the thermal noise floor $k_B T$. This makes the collapse threshold physically equivalent to the \textbf{quantum-to-classical thermodynamic phase transition.}
+We therefore define $\Delta_{\text{crit}}$ as the accumulation of information current corresponding to an action $S \sim \hbar$ such that the associated energy fluctuation exceeds the thermal noise floor $k_B T$. This makes the collapse threshold physically equivalent to the quantum-to-classical thermodynamic phase transition.
 
 The energy cost associated with distinguishing these states within the environmental bath sets the threshold. If information accumulates at rate $\Gamma_{\text{env}}$ (decoherence rate) and the energy scale of thermal fluctuations is $k_B T$, the action threshold is:
 
@@ -462,7 +458,7 @@ Our framework predicts that incomplete decoherence leads to \emph{delayed} or \e
 Conversely, if decoherence is interrupted before threshold crossing (e.g., by reversing environmental coupling), the deterministic selection rule does not activate, and the system remains in superposition. This connects to the quantum Zeno effect: continuous weak monitoring prevents collapse by keeping $\cI_i(t)$ below threshold, analogous to how frequent projective measurements freeze quantum evolution. The critical distinction is that our threshold is derived from redundancy requirements rather than postulated, providing a physical basis for the Zeno regime boundary.
 
 \subsubsection{Basis Selection Mechanism}
-The collapse basis $\{P_k\}$ is not an arbitrary input but is dynamically selected via Zurek's \textbf{Einselection} mechanism. The interaction Hamiltonian $\hat{H}_{\text{int}}$ commutes with a specific observable (the pointer observable), causing the density matrix to diagonalize in that basis due to rapid decoherence ($\Gamma_{\text{dec}} \gg \Gamma_{\text{collapse}}$).
+The collapse basis $\{P_k\}$ is not an arbitrary input but is dynamically selected via Zurek's Einselection mechanism. The interaction Hamiltonian $\hat{H}_{\text{int}}$ commutes with a specific observable (the pointer observable), causing the density matrix to diagonalize in that basis due to rapid decoherence ($\Gamma_{\text{dec}} \gg \Gamma_{\text{collapse}}$).
 
 Our framework operates in a two-stage hierarchy:
 \begin{enumerate}
@@ -503,7 +499,7 @@ where $N_{bath} \sim 10^{23}$ is the thermodynamic degrees of freedom. This ensu
 \subsubsection{Resolution of Wigner's Friend}
 Our framework resolves the Wigner's Friend paradox by defining collapse objectively via information redundancy, independent of a conscious observer. If the "Friend" (apparatus) inside the box accumulates sufficient redundant records ($N > N_{\text{min}}$) of the outcome, collapse occurs \emph{inside} the box. Wigner outside describes the box as collapsed, not in superposition.
 
-However, if Wigner maintains the box in total isolation such that no decoherence leaks out, and reverses the evolution, our theory predicts he will fail. The internal collapse is irreversible because the dynamics are \textbf{dynamically irreversible}. The collapse term in Eq. (1) breaks time-reversal symmetry at the fundamental level once the threshold is crossed. It is not merely a practical difficulty of tracking degrees of freedom (thermodynamics), but a fundamental feature of the non-unitary evolution law.
+However, if Wigner maintains the box in total isolation such that no decoherence leaks out, and reverses the evolution, our theory predicts he will fail. The internal collapse is irreversible because the dynamics are dynamically irreversible. The collapse term in Eq. (1) breaks time-reversal symmetry at the fundamental level once the threshold is crossed. It is not merely a practical difficulty of tracking degrees of freedom (thermodynamics), but a fundamental feature of the non-unitary evolution law.
 
 \section{Derivation of Born Rule}
 \label{sec:born}
@@ -526,13 +522,13 @@ Here, $\ket{A_i}$ is the apparatus pointer state corresponding to outcome $i$. T
 
 \subsubsection{Physical Justification: Information Current Dynamics}
 
-The appearance of $|c_i|^2$ in the maximization rule is driven by the \textbf{Information Current} $J^\mu$. In a physical apparatus, information is not abstract; it is carried by energy and charge. The 'loudness' of a specific outcome branch is defined by its \textbf{distinguishability} against the apparatus noise floor.
+The appearance of $|c_i|^2$ in the maximization rule is driven by the Information Current $J^\mu$. In a physical apparatus, information is not abstract; it is carried by energy and charge. The 'loudness' of a specific outcome branch is defined by its distinguishability against the apparatus noise floor.
 
 \textbf{The apparatus functions as an active gain medium operating at a critical point.} Just as mode competition in a laser suppresses weak modes in favor of the dominant seed, the apparatus dynamics exhibit \textbf{spontaneous symmetry breaking} driven by the signal-to-noise ratio of the information current. The selection rule $k = \arg\max_i (|c_i|^2 X_i)$ emerges effectively from the saturation of the amplification channel with the highest initial intensity.
 
 This reframes the collapse not as an ad-hoc algorithm, but as a natural consequence of non-linear gain dynamics in thermodynamically open systems.
 
-Just as a laser amplifier preferentially amplifies the mode with the highest initial photon density, the collapse functional selects the branch that maximizes the \textbf{local information flow}. Since the interaction coupling scales with charge density ($|c|^2$), the branch with the highest $|c|^2$ has the highest initial \textbf{Signal-to-Noise Ratio (SNR)} and statistically dominates the saturation process.
+Just as a laser amplifier preferentially amplifies the mode with the highest initial photon density, the collapse functional selects the branch that maximizes the local information flow. Since the interaction coupling scales with charge density ($|c|^2$), the branch with the highest $|c|^2$ has the highest initial Signal-to-Noise Ratio (SNR) and statistically dominates the saturation process.
 
 \begin{enumerate}
     \item \textbf{Active Medium:} The apparatus is a reservoir of energy with gain $G$.
@@ -541,7 +537,7 @@ Just as a laser amplifier preferentially amplifies the mode with the highest ini
     \item \textbf{Result:} The channel with the largest initial intensity $|c_i + \xi_i|^2$ saturates the gain first ("winner-take-all").
 \end{enumerate}
 
-\paragraph{The Derivation.} If $\xi_i$ are complex Gaussian random variables (standard vacuum/thermal noise), the probability of channel $k$ having the largest initial intensity is exactly proportional to $|c_k|^2$ in the weak seed limit. This derives the $|c|^2$ dependence from \textbf{standard amplifier physics} (intensity drives saturation) rather than postulating it as a force law.
+\paragraph{The Derivation.} If $\xi_i$ are complex Gaussian random variables (standard vacuum/thermal noise), the probability of channel $k$ having the largest initial intensity is exactly proportional to $|c_k|^2$ in the weak seed limit. This derives the $|c|^2$ dependence from standard amplifier physics (intensity drives saturation) rather than postulating it as a force law.
 
 
 
@@ -729,79 +725,79 @@ where $\hat{A}_i$ are apparatus operators that amplify pointer states correspond
 
 \subsection{Simulation Results}
 
-\begin{figure}[htbp]
-    \centering
-    % Figure: Individual collapse trajectories
-    % Description: Time evolution of 10 individual measurement runs showing deterministic collapse
-    %
-    % Plot configuration:
-    %   - X-axis: Time (0 to 100τ_dec, where τ_dec = 1/γ decoherence time)
-    %   - Y-axis: System state fidelity F_i(t) = |⟨i|\psi_S(t)⟩|^{2} for i=0,1
-    %   - Two y-axes or stacked plots showing F_0(t) and F_1(t)
-    %
-    % Ten individual runs (10 different random apparatus phase sets {φ_k}):
-    %   - 5 runs collapsing to outcome 0 (F_0→1): solid blue lines
-    %   - 5 runs collapsing to outcome 1 (F_1→1): solid red lines
-    %   - Each trajectory shows smooth deterministic evolution
-    %   - Initially all at F_0 = F_1 = 0.5 (equal superposition)
-    %   - Divergence begins around t \approx 10-20τ_dec
-    %   - Complete collapse (F_winner \approx 1) by t \approx 50-80τ_dec
-    %
-    % Visual elements:
-    %   - Vertical dashed line at t* \approx 40τ_dec (approximate threshold crossing time)
-    %   - Shaded region 0.95 < F < 1.0 indicating "collapsed" regime
-    %   - Legend: "Run 1-5 → outcome 0", "Run 6-10 → outcome 1"
-    %   - Annotation: "Outcome deterministic given {φ_k}, random across ensemble"
-    %
-    % Generation notes: Integrate master equation numerically for each {φ_k} set,
-    % plot F_0(t) = Tr(|0⟩⟨0| ρ_S(t)) where ρ_S = Tr_A(ρ_total). Use QuTiP mesolve
-    % or manual RK4 integration. Save 10 example trajectories with contrasting outcomes.
-    %
-    % \includegraphics[width=0.8\linewidth]{fig_toy_trajectories}
-    \fbox{\textit{[Figure: Individual collapse trajectories for 10 measurement runs with different apparatus microstates. Five runs collapse to outcome 0 (blue), five to outcome 1 (red). Each trajectory is deterministic given $\{\phi_k\}$, but appears random across ensemble.]}}
-    \caption{Individual collapse trajectories for 10 measurement runs with different apparatus microstates. Five runs collapse to outcome 0 (blue), five to outcome 1 (red). Each trajectory is deterministic given $\{\phi_k\}$, but appears random across ensemble.}
-    \label{fig:toy_trajectories}
-\end{figure}
+% \begin{figure}[htbp]
+%     \centering
+%     % Figure: Individual collapse trajectories
+%     % Description: Time evolution of 10 individual measurement runs showing deterministic collapse
+%     %
+%     % Plot configuration:
+%     %   - X-axis: Time (0 to 100τ_dec, where τ_dec = 1/γ decoherence time)
+%     %   - Y-axis: System state fidelity F_i(t) = |⟨i|\psi_S(t)⟩|^{2} for i=0,1
+%     %   - Two y-axes or stacked plots showing F_0(t) and F_1(t)
+%     %
+%     % Ten individual runs (10 different random apparatus phase sets {φ_k}):
+%     %   - 5 runs collapsing to outcome 0 (F_0→1): solid blue lines
+%     %   - 5 runs collapsing to outcome 1 (F_1→1): solid red lines
+%     %   - Each trajectory shows smooth deterministic evolution
+%     %   - Initially all at F_0 = F_1 = 0.5 (equal superposition)
+%     %   - Divergence begins around t \approx 10-20τ_dec
+%     %   - Complete collapse (F_winner \approx 1) by t \approx 50-80τ_dec
+%     %
+%     % Visual elements:
+%     %   - Vertical dashed line at t* \approx 40τ_dec (approximate threshold crossing time)
+%     %   - Shaded region 0.95 < F < 1.0 indicating "collapsed" regime
+%     %   - Legend: "Run 1-5 → outcome 0", "Run 6-10 → outcome 1"
+%     %   - Annotation: "Outcome deterministic given {φ_k}, random across ensemble"
+%     %
+%     % Generation notes: Integrate master equation numerically for each {φ_k} set,
+%     % plot F_0(t) = Tr(|0⟩⟨0| ρ_S(t)) where ρ_S = Tr_A(ρ_total). Use QuTiP mesolve
+%     % or manual RK4 integration. Save 10 example trajectories with contrasting outcomes.
+%     %
+%     % \includegraphics[width=0.8\linewidth]{fig_toy_trajectories}
+%     \fbox{\textit{[Figure: Individual collapse trajectories for 10 measurement runs with different apparatus microstates. Five runs collapse to outcome 0 (blue), five to outcome 1 (red). Each trajectory is deterministic given $\{\phi_k\}$, but appears random across ensemble.]}}
+%     \caption{Individual collapse trajectories for 10 measurement runs with different apparatus microstates. Five runs collapse to outcome 0 (blue), five to outcome 1 (red). Each trajectory is deterministic given $\{\phi_k\}$, but appears random across ensemble.}
+%     \label{fig:toy_trajectories}
+% \end{figure}
 
-\begin{figure}[htbp]
-    \centering
-    % Figure: Ensemble statistics - Born rule reproduction
-    % Description: Two-panel figure showing ensemble statistics over 10⁴ simulation runs
-    %
-    % Panel A (Left): Outcome frequency histogram
-    %   - Bar chart or histogram
-    %   - X-axis: Outcome (0, 1)
-    %   - Y-axis: Frequency (0 to 1)
-    %   - Two bars: outcome 0 (blue, height \approx 0.50), outcome 1 (red, height \approx 0.50)
-    %   - Horizontal dashed lines at p_Born = 0.50 (theoretical Born rule)
-    %   - Error bars showing ±\sqrt(p(1-p)/N) statistical uncertainty
-    %   - Text annotation: "10⁴ runs, p_0 = 0.4998 ± 0.005"
-    %   - Text annotation: "Born rule: p_0 = 0.500"
-    %
-    % Panel B (Right): Microstate-outcome correlation scatter plot
-    %   - X-axis: Apparatus overlap ratio X_0/X_1 (log scale, 0.01 to 100)
-    %   - Y-axis: Outcome (jittered 0 or 1 for visualization)
-    %   - Scatter points: blue dots at y=0, red dots at y=1
-    %   - Clear separation: X_0/X_1 > 1 → outcome 0, X_0/X_1 < 1 → outcome 1
-    %   - Vertical line at X_0/X_1 = 1 (decision boundary)
-    %   - Annotation: "Perfect determinism: outcome = argmax(|c_i|^{2}X_i)"
-    %
-    % Alternative panel B: 2D histogram
-    %   - X-axis: X_0 (apparatus overlap with pointer state |A_0⟩)
-    %   - Y-axis: X_1 (apparatus overlap with pointer state |A_1⟩)
-    %   - Color: outcome (blue for 0, red for 1)
-    %   - Decision boundary line: X_0 = X_1 (diagonal)
-    %   - Shows deterministic regions clearly separated
-    %
-    % Generation notes: Run 10⁴ simulations with random {φ_k}, record outcomes and
-    % compute overlaps X_i = |⟨A_i|\psi_A⟩|^{2}. Plot frequency histogram and scatter plot.
-    % For scatter, add small random jitter to y-values for visualization.
-    %
-    % \includegraphics[width=0.95\linewidth]{fig_toy_statistics}
-    \fbox{\textit{[Figure: Ensemble statistics from $10^4$ simulations. (Left) Outcome frequencies match Born rule exactly. (Right) Strong correlation between apparatus microstate and outcome demonstrates determinism.]}}
-    \caption{Ensemble statistics from $10^4$ simulations. \textbf{(A)} Outcome frequencies reproduce Born rule probabilities within statistical error. \textbf{(B)} Perfect correlation between apparatus overlap parameters $X_i$ and outcome, demonstrating deterministic selection rule: points cluster into two regions separated by $X_0 = X_1$ boundary.}
-    \label{fig:toy_statistics}
-\end{figure}
+% \begin{figure}[htbp]
+%     \centering
+%     % Figure: Ensemble statistics - Born rule reproduction
+%     % Description: Two-panel figure showing ensemble statistics over 10⁴ simulation runs
+%     %
+%     % Panel A (Left): Outcome frequency histogram
+%     %   - Bar chart or histogram
+%     %   - X-axis: Outcome (0, 1)
+%     %   - Y-axis: Frequency (0 to 1)
+%     %   - Two bars: outcome 0 (blue, height \approx 0.50), outcome 1 (red, height \approx 0.50)
+%     %   - Horizontal dashed lines at p_Born = 0.50 (theoretical Born rule)
+%     %   - Error bars showing ±\sqrt(p(1-p)/N) statistical uncertainty
+%     %   - Text annotation: "10⁴ runs, p_0 = 0.4998 ± 0.005"
+%     %   - Text annotation: "Born rule: p_0 = 0.500"
+%     %
+%     % Panel B (Right): Microstate-outcome correlation scatter plot
+%     %   - X-axis: Apparatus overlap ratio X_0/X_1 (log scale, 0.01 to 100)
+%     %   - Y-axis: Outcome (jittered 0 or 1 for visualization)
+%     %   - Scatter points: blue dots at y=0, red dots at y=1
+%     %   - Clear separation: X_0/X_1 > 1 → outcome 0, X_0/X_1 < 1 → outcome 1
+%     %   - Vertical line at X_0/X_1 = 1 (decision boundary)
+%     %   - Annotation: "Perfect determinism: outcome = argmax(|c_i|^{2}X_i)"
+%     %
+%     % Alternative panel B: 2D histogram
+%     %   - X-axis: X_0 (apparatus overlap with pointer state |A_0⟩)
+%     %   - Y-axis: X_1 (apparatus overlap with pointer state |A_1⟩)
+%     %   - Color: outcome (blue for 0, red for 1)
+%     %   - Decision boundary line: X_0 = X_1 (diagonal)
+%     %   - Shows deterministic regions clearly separated
+%     %
+%     % Generation notes: Run 10⁴ simulations with random {φ_k}, record outcomes and
+%     % compute overlaps X_i = |⟨A_i|\psi_A⟩|^{2}. Plot frequency histogram and scatter plot.
+%     % For scatter, add small random jitter to y-values for visualization.
+%     %
+%     % \includegraphics[width=0.95\linewidth]{fig_toy_statistics}
+%     \fbox{\textit{[Figure: Ensemble statistics from $10^4$ simulations. (Left) Outcome frequencies match Born rule exactly. (Right) Strong correlation between apparatus microstate and outcome demonstrates determinism.]}}
+%     \caption{Ensemble statistics from $10^4$ simulations. \textbf{(A)} Outcome frequencies reproduce Born rule probabilities within statistical error. \textbf{(B)} Perfect correlation between apparatus overlap parameters $X_i$ and outcome, demonstrating deterministic selection rule: points cluster into two regions separated by $X_0 = X_1$ boundary.}
+%     \label{fig:toy_statistics}
+% \end{figure}
 
 \subsection{Key Observations}
 
@@ -830,37 +826,37 @@ For small $N$, Beta$(1, N-1)$ is more peaked near zero than Exp$(1)$, leading to
 
 We simulated $10^5$ measurements for a qubit in state $\ket{\psi} = \sqrt{0.7}\ket{0} + \sqrt{0.3}\ket{1}$ (Born probabilities $p_0 = 0.7$, $p_1 = 0.3$) for varying apparatus dimensions $N \in \{5, 10, 20, 50, 100, 500, 10^3\}$. Results are shown in Table~\ref{tab:N_convergence}. % and Figure~\ref{fig:N_convergence}
 
-\begin{figure}[htbp]
-    \centering
-    % Figure: Convergence to Born rule vs apparatus dimension
-    % Description: Single plot showing how deviations from Born rule decrease with N
-    %
-    % Plot configuration:
-    %   - X-axis: Apparatus dimension N (log scale, 5 to 10^{3})
-    %   - Y-axis: Absolute deviation |P_sim(0) - P_Born(0)| (linear scale, 0 to 0.025)
-    %   - Data points: Simulated deviations for N ∈ {5, 10, 20, 50, 100, 500, 1000}
-    %   - Error bars: Statistical uncertainty \approx \sqrt(p(1-p)/10⁵) \approx 0.0015
-    %
-    % Visual elements:
-    %   - Blue circles: actual simulation data
-    %   - Red dashed line: theoretical 1/N scaling fit Δ P = C/N
-    %   - Fit parameters shown: "Fit: ΔP = 0.11/N, R^{2} = 0.998"
-    %   - Horizontal dotted line at y = 0.001 (detection threshold)
-    %   - Annotation: "Born rule exact for N → \infty"
-    %   - Shaded region below y = 0.001 labeled "Undetectable regime"
-    %
-    % Inset (optional): Log-log plot showing perfect 1/N power law
-    %   - X-axis: N (log scale)
-    %   - Y-axis: |ΔP| (log scale)
-    %   - Straight line with slope -1 confirming 1/N scaling
-    %
-    % Generation notes: Extract deviations from Table, plot vs N, fit to C/N form,
-    % add error bars from binomial statistics. Use matplotlib with log x-scale.
-    %
-    % \includegraphics[width=0.75\linewidth]{fig_N_convergence}
-    \caption{Convergence to Born rule with increasing apparatus dimension N.}
-    \label{fig:N_convergence_simple}
-\end{figure}
+% \begin{figure}[htbp]
+%     \centering
+%     % Figure: Convergence to Born rule vs apparatus dimension
+%     % Description: Single plot showing how deviations from Born rule decrease with N
+%     %
+%     % Plot configuration:
+%     %   - X-axis: Apparatus dimension N (log scale, 5 to 10^{3})
+%     %   - Y-axis: Absolute deviation |P_sim(0) - P_Born(0)| (linear scale, 0 to 0.025)
+%     %   - Data points: Simulated deviations for N ∈ {5, 10, 20, 50, 100, 500, 1000}
+%     %   - Error bars: Statistical uncertainty \approx \sqrt(p(1-p)/10⁵) \approx 0.0015
+%     %
+%     % Visual elements:
+%     %   - Blue circles: actual simulation data
+%     %   - Red dashed line: theoretical 1/N scaling fit Δ P = C/N
+%     %   - Fit parameters shown: "Fit: ΔP = 0.11/N, R^{2} = 0.998"
+%   %   - Horizontal dotted line at y = 0.001 (detection threshold)
+%     %   - Annotation: "Born rule exact for N → \infty"
+%     %   - Shaded region below y = 0.001 labeled "Undetectable regime"
+%     %
+%     % Inset (optional): Log-log plot showing perfect 1/N power law
+%     %   - X-axis: N (log scale)
+%     %   - Y-axis: |ΔP| (log scale)
+%     %   - Straight line with slope -1 confirming 1/N scaling
+%     %
+%     % Generation notes: Extract deviations from Table, plot vs N, fit to C/N form,
+%     % add error bars from binomial statistics. Use matplotlib with log x-scale.
+%     %
+%     % \includegraphics[width=0.75\linewidth]{fig_N_convergence}
+%     \caption{Convergence to Born rule with increasing apparatus dimension N.}
+%     \label{fig:N_convergence_simple}
+% \end{figure}
 
 \begin{table}[htbp]
     \centering
@@ -881,46 +877,46 @@ We simulated $10^5$ measurements for a qubit in state $\ket{\psi} = \sqrt{0.7}\k
     \end{tabular}
 \end{table}
 
-\begin{figure}[htbp]
-    \centering
-    % Figure: Detailed convergence analysis with distribution comparison
-    % Description: Main plot with inset showing both deviation scaling and distribution evolution
-    %
-    % Main plot:
-    %   - X-axis: 1/N (inverse apparatus dimension, 0 to 0.2)
-    %   - Y-axis: |P_sim - P_Born| (absolute deviation, 0 to 0.025)
-    %   - Data points: Blue circles for each simulated N value
-    %   - Linear fit: Red dashed line (should pass through origin)
-    %   - Slope displayed: "Slope = 0.11 ± 0.01"
-    %   - Error bars on data points
-    %   - Annotation: "Linear 1/N scaling confirms Beta→Exp convergence"
-    %
-    % Inset (top-right corner, ~40% of main plot size):
-    %   - X-axis: Overlap value X_i (0 to 5)
-    %   - Y-axis: Probability density P(X_i) (0 to 1.5)
-    %   - Three distributions overlaid:
-    %     * Red histogram (50 bins): Beta(1,9) for N=10 (peaked near zero)
-    %     * Blue histogram (50 bins): Beta(1,99) for N=100 (closer to exponential)
-    %     * Black smooth curve: Exp(1) theoretical limit
-    %   - Legend in inset: "N=10", "N=100", "Exp(1)"
-    %   - Shows clear visual convergence: N=10 more peaked, N=100 nearly matches Exp
-    %
-    % Visual details:
-    %   - Main plot grid: light gray
-    %   - Inset background: white with thin border
-    %   - All fonts readable at figure width
-    %   - High contrast for black-and-white printing
-    %
-    % Generation notes:
-    %   1. Main plot: Extract deviations vs 1/N, linear regression, plot with errors
-    %   2. Inset: Sample from Beta(1, N-1) for N=10 and N=100 (10⁴ samples each),
-    %      create normalized histograms, overlay with Exp(1) PDF = e^(-x)
-    %   3. Use matplotlib, carefully position inset with inset_axes or add_axes
-    %
-    % \includegraphics[width=0.8\linewidth]{fig_N_convergence_detail}
-    \caption{Detailed convergence analysis. \textbf{(Main)} Deviation magnitude vs $1/N$ demonstrates perfect linear scaling, confirming theoretical Beta→Exponential convergence prediction. \textbf{(Inset)} Histograms of overlap distributions $X_i$ for $N=10$ (red) and $N=100$ (blue) compared to Exp(1) limit (black curve), showing progressive convergence to exponential form as apparatus dimension increases.}
-    \label{fig:N_convergence}
-\end{figure}
+% \begin{figure}[htbp]
+%     \centering
+%     % Figure: Detailed convergence analysis with distribution comparison
+%     % Description: Main plot with inset showing both deviation scaling and distribution evolution
+%     %
+%     % Main plot:
+%     %   - X-axis: 1/N (inverse apparatus dimension, 0 to 0.2)
+%     %   - Y-axis: |P_sim - P_Born| (absolute deviation, 0 to 0.025)
+%     %   - Data points: Blue circles for each simulated N value
+%     %   - Linear fit: Red dashed line (should pass through origin)
+%     %   - Slope displayed: "Slope = 0.11 ± 0.01"
+%     %   - Error bars on data points
+%     %   - Annotation: "Linear 1/N scaling confirms Beta→Exp convergence"
+%     %
+%     % Inset (top-right corner, ~40% of main plot size):
+%     %   - X-axis: Overlap value X_i (0 to 5)
+%     %   - Y-axis: Probability density P(X_i) (0 to 1.5)
+%     %   - Three distributions overlaid:
+%     %     * Red histogram (50 bins): Beta(1,9) for N=10 (peaked near zero)
+%     %     * Blue histogram (50 bins): Beta(1,99) for N=100 (closer to exponential)
+%     %     * Black smooth curve: Exp(1) theoretical limit
+%     %   - Legend in inset: "N=10", "N=100", "Exp(1)"
+%     %   - Shows clear visual convergence: N=10 more peaked, N=100 nearly matches Exp
+%     %
+%     % Visual details:
+%     %   - Main plot grid: light gray
+%     %   - Inset background: white with thin border
+%     %   - All fonts readable at figure width
+%     %   - High contrast for black-and-white printing
+%     %
+%     % Generation notes:
+%     %   1. Main plot: Extract |P_sim - P_Born| from Table, plot vs 1/N, fit linear
+%     %   2. Inset: Sample from Beta(1, N-1) for N=10 and N=100 (10⁴ samples each),
+%     %      create normalized histograms, overlay with Exp(1) PDF = e^(-x)
+%     %   3. Use matplotlib, carefully position inset with inset_axes or add_axes
+%     %
+%     % \includegraphics[width=0.8\linewidth]{fig_N_convergence_detail}
+%     \caption{Detailed convergence analysis. \textbf{(Main)} Deviation magnitude vs $1/N$ demonstrates perfect linear scaling, confirming theoretical Beta→Exponential convergence prediction. \textbf{(Inset)} Histograms of overlap distributions $X_i$ for $N=10$ (red) and $N=100$ (blue) compared to Exp(1) limit (black curve), showing progressive convergence to exponential form as apparatus dimension increases.}
+%     \label{fig:N_convergence}
+% \end{figure}
 
 \subsubsection{Physical Interpretation}
 
@@ -1399,7 +1395,7 @@ To clarify our claim of "minimal non-locality," we define three classes of non-l
 
 3. \textbf{Superdeterminism:} Correlations in initial conditions.
 
-Standard Hidden Variable theories (Bohm) require \textbf{Kinematic + Dynamic} non-locality (the wavefunction + the guidance equation). Our framework requires \textbf{only Kinematic} non-locality. The collapse is an update of the Kinematic state, but the \emph{trigger mechanism} (information integration) and the \emph{dynamics} (master equation) are strictly local. Therefore, we define 'Minimal' as: **The set of theories possessing Kinematic Non-Locality but strictly zero Dynamic Non-Locality.**
+Standard Hidden Variable theories (Bohm) require Kinematic + Dynamic non-locality (the wavefunction + the guidance equation). Our framework requires only Kinematic non-locality. The collapse is an update of the Kinematic state, but the trigger mechanism (information integration) and the dynamics (master equation) are strictly local. Therefore, we define 'Minimal' as: The set of theories possessing Kinematic Non-Locality but strictly zero Dynamic Non-Locality.
 
 \subsection{Copenhagen Interpretation}
 
