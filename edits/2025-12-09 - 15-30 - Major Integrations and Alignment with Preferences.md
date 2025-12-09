@@ -15,5 +15,9 @@ Aligned with CLAUDE.md preferences:
 - Ensured citations in \cite{} format.
 - Maintained simple, clear, precise academic tone.
 
+Fixed specific issues:
+- Corrected introduction citation from "Yang et al." to "Ringbauer et al." for accuracy.
+- Updated abstract prediction from N_eff ≈ 10 to N_eff ≈ 5 for consistency with section definition.
+
 Compiled PDF successfully (64 pages) after resolving LaTeX errors.
 Ready for git commit and push.
