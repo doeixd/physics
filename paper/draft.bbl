@@ -1,0 +1,86 @@
+\begin{thebibliography}{10}
+
+\bibitem{Pusey2012}
+Matthew~F Pusey, Jonathan Barrett, and Terry Rudolph.
+\newblock On the reality of the quantum state.
+\newblock {\em Nature Physics}, 8(6):475--478, 2012.
+
+\bibitem{Yang2025}
+Songqinghao Yang, Haomu Yuan, and Crispin H.~W. Barnes.
+\newblock Experimental demonstration of the {PBR} test on a superconducting
+  processor.
+\newblock {\em arXiv preprint arXiv:2510.11213}, Oct 2025.
+
+\bibitem{Bell1964}
+J.~S. Bell.
+\newblock On the einstein podolsky rosen paradox.
+\newblock {\em Physics Physique Fizika}, 1(3):195--200, 1964.
+
+\bibitem{Rovelli1996}
+Carlo Rovelli.
+\newblock Relational quantum mechanics.
+\newblock {\em International Journal of Theoretical Physics}, 35(8):1637--1678,
+  1996.
+
+\bibitem{Gisin1990}
+Nicolas Gisin.
+\newblock Weinberg's non-linear quantum mechanics and superluminal
+  communications.
+\newblock {\em Physics Letters A}, 143(1-2):1--2, 1990.
+
+\bibitem{Zurek2003}
+Wojciech~H. Zurek.
+\newblock Decoherence, einselection, and the quantum origins of the classical.
+\newblock {\em Reviews of Modern Physics}, 75(3):715--775, 2003.
+
+\bibitem{Zurek2009}
+Wojciech~H. Zurek.
+\newblock Quantum darwinism.
+\newblock {\em Nature Physics}, 5(3):181--188, 2009.
+
+\bibitem{Popescu2006}
+Sandu Popescu, Anthony~J Short, and Andreas Winter.
+\newblock Entanglement and the foundations of statistical mechanics.
+\newblock {\em Nature Physics}, 2(11):754--758, 2006.
+
+\bibitem{D'Alessio2016}
+Luca D'Alessio, Yariv Kafri, Anatoli Polkovnikov, and Marcos Rigol.
+\newblock From quantum chaos and eigenstate thermalization to statistical
+  mechanics and thermodynamics.
+\newblock {\em Advances in Physics}, 65(3):239--362, 2016.
+
+\bibitem{Srednicki1994}
+Mark Srednicki.
+\newblock Chaos and quantum thermalization.
+\newblock {\em Physical Review E}, 50(2):888, 1994.
+
+\bibitem{Goldstein2006}
+Sheldon Goldstein, Joel~L. Lebowitz, Roderich Tumulka, and Nino Zangh\`i.
+\newblock Canonical typicality.
+\newblock {\em Physical Review Letters}, 96(5):050403, 2006.
+
+\bibitem{Kaufman2016}
+Adam~M Kaufman, M~Eric Tai, Alexander Lukin, Matthew Rispoli, Robert Schittko,
+  Philipp~M Preiss, and Markus Greiner.
+\newblock Quantum thermalization through entanglement in an isolated many-body
+  system.
+\newblock {\em Science}, 353(6301):794--800, 2016.
+
+\bibitem{Bohigas1984}
+O.~Bohigas, M.~J. Giannoni, and C.~Schmit.
+\newblock Characterization of chaotic quantum spectra and universality of level
+  fluctuation laws.
+\newblock {\em Physical Review Letters}, 52(1):1--4, 1984.
+
+\bibitem{PorterThomas1956}
+C.~E. Porter and R.~G. Thomas.
+\newblock Fluctuations of nuclear reaction widths.
+\newblock {\em Physical Review}, 104(2):483--491, 1956.
+
+\bibitem{Johansson2012}
+JR~Johansson, PD~Nation, and Franco Nori.
+\newblock Qutip: An open-source python framework for the dynamics of open
+  quantum systems.
+\newblock {\em Computer Physics Communications}, 183(8):1760--1772, 2012.
+
+\end{thebibliography}

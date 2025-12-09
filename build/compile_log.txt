@@ -1,0 +1,546 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1 Portable) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(draft.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/base\articl
+e.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/base\size11
+.clo))
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/geometry\ge
+ometry.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/graphics\ke
+yval.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/generic/iftex\ifv
+tex.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/generic/iftex\ift
+ex.sty))
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/geometry\ge
+ometry.cfg))
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/amsmath\ams
+math.sty
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/amsmath\ams
+text.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/amsmath\ams
+gen.sty))
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/amsmath\ams
+bsy.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/amsmath\ams
+opn.sty))
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/amsfonts\am
+ssymb.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/amsfonts\am
+sfonts.sty))
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/amscls\amst
+hm.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/physics\phy
+sics.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/l3packages/
+xparse\xparse.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/l3kernel\ex
+pl3.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/l3backend\l
+3backend-pdftex.def))))
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/graphics\gr
+aphicx.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/graphics\gr
+aphics.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/graphics\tr
+ig.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/graphics-cf
+g\graphics.cfg)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/graphics-de
+f\pdftex.def)))
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/hyperref\hy
+perref.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/generic/infwarerr
+\infwarerr.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/kvsetkeys\k
+vsetkeys.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/generic/kvdefinek
+eys\kvdefinekeys.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/generic/pdfescape
+\pdfescape.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/generic/ltxcmds\l
+txcmds.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/generic/pdftexcmd
+s\pdftexcmds.sty))
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/hycolor\hyc
+olor.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/letltxmacro
+\letltxmacro.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/auxhook\aux
+hook.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/hyperref\na
+meref.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/refcount\re
+fcount.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/generic/gettitles
+tring\gettitlestring.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/kvoptions\k
+voptions.sty)))
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/etoolbox\et
+oolbox.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/hyperref\pd
+1enc.def)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/generic/intcalc\i
+ntcalc.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/hyperref\pu
+enc.def)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/url\url.sty
+)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/generic/bitset\bi
+tset.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/generic/bigintcal
+c\bigintcalc.sty))
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/base\atbegs
+hi-ltx.sty))
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/hyperref\hp
+dftex.def
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/base\atvery
+end-ltx.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/rerunfilech
+eck\rerunfilecheck.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/generic/uniquecou
+nter\uniquecounter.sty)))
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/cleveref\cl
+everef.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/booktabs\bo
+oktabs.sty)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/xcolor\xcol
+or.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/graphics-cf
+g\color.cfg)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/graphics\ma
+thcolor.ltx))
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/colortbl\co
+lortbl.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/tools\array
+.sty)) (draft.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/context/base/mkii
+\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/epstopdf-pk
+g\epstopdf-base.sty
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/00miktex\ep
+stopdf-sys.cfg)) (draft.out) (draft.out)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/amsfonts\um
+sa.fd)
+(C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\tex/latex/amsfonts\um
+sb.fd)
+
+LaTeX Warning: Citation `Pusey2012' on page 1 undefined on input line 49.
+
+
+LaTeX Warning: Citation `Yang2025' on page 1 undefined on input line 49.
+
+[1{C:/Users/Patrick/scoop/apps/latex/current/texmfs/data/fonts/map/pdftex/pdfte
+x.map}]
+
+LaTeX Warning: Citation `Bell1964' on page 2 undefined on input line 76.
+
+[2]
+Overfull \hbox (7.84514pt too wide) in paragraph at lines 90--91
+[]\OT1/cmr/m/n/10.95 We es-tab-lish an im-pos-si-bil-ity re-sult: Any the-ory t
+hat is De-ter-min-is-tic, Measurement-Independent,
+
+LaTeX Warning: Citation `Rovelli1996' on page 3 undefined on input line 100.
+
+
+LaTeX Warning: Reference `sec:born' on page 3 undefined on input line 117.
+
+
+LaTeX Warning: Reference `sec:toy' on page 3 undefined on input line 117.
+
+
+Overfull \hbox (2.98146pt too wide) in paragraph at lines 117--118
+\OT1/cmr/m/n/10.95 This pa-per pro-vides a com-plete math-e-mat-i-cal for-mal-i
+sm for this the-ory of De-ter-min-is-tic Information-
+[3]
+
+LaTeX Warning: Reference `sec:experiments' on page 4 undefined on input line 11
+9.
+
+
+LaTeX Warning: Reference `sec:locality' on page 4 undefined on input line 119.
+
+
+LaTeX Warning: Reference `sec:comparisons' on page 4 undefined on input line 11
+9.
+
+[4]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 168.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\psi' on input line 168.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 168.
+
+
+Overfull \hbox (9.1199pt too wide) in paragraph at lines 183--196
+ [][] 
+
+LaTeX Warning: Citation `Yang2025' on page 5 undefined on input line 198.
+
+[5]
+Overfull \hbox (23.98949pt too wide) in paragraph at lines 228--229
+[]\OT1/cmr/m/n/10.95 Signal-to-Noise Ra-tio (SNR): The ap-pa-ra-tus max-i-mizes
+ $\OML/cmm/m/it/10.95 SNR \OT1/cmr/m/n/10.95 = [] \OMS/cmsy/m/n/10.95 ^^Y []$\O
+T1/cmr/m/n/10.95 .
+[6]
+Overfull \hbox (7.38889pt too wide) in paragraph at lines 243--244
+[]\OT1/cmr/m/n/10.95 where the col-lapse func-tional de-pends strictly on the l
+o-cal re-duced den-sity ma-trix $\OML/cmm/m/it/10.95 ^^Z[] \OT1/cmr/m/n/10.95 =
+ [][](\OML/cmm/m/it/10.95 ^^Z\OT1/cmr/m/n/10.95 )$: 
+[7]
+
+LaTeX Warning: Reference `sec:threshold' on page 8 undefined on input line 293.
+
+
+
+LaTeX Warning: Citation `Gisin1990' on page 8 undefined on input line 297.
+
+[8] [9]
+Overfull \hbox (1037.94751pt too wide) in paragraph at lines 370--371
+ [][] 
+
+Overfull \hbox (2.67865pt too wide) in paragraph at lines 382--383
+\OT1/cmr/m/n/10.95 branches. Con-sider a Stern-Gerlach mea-sure-ment where the 
+sys-tem Hamil-to-nian is $[] = \OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/10.95 ^^V^^
+[[]B\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.95 )$.
+[10]
+
+LaTeX Warning: Citation `Zurek2003' on page 11 undefined on input line 393.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 426.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Delta' on input line 426.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 426.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 426.
+
+[11]
+
+LaTeX Warning: Citation `Zurek2009' on page 12 undefined on input line 430.
+
+
+LaTeX Warning: Reference `sec:experiments' on page 12 undefined on input line 4
+53.
+
+[12] [13] [14]
+
+LaTeX Warning: Citation `Popescu2006' on page 15 undefined on input line 547.
+
+[15]
+
+LaTeX Warning: Citation `D'Alessio2016' on page 16 undefined on input line 562.
+
+
+
+LaTeX Warning: Citation `Srednicki1994' on page 16 undefined on input line 562.
+
+
+
+LaTeX Warning: Citation `Goldstein2006' on page 16 undefined on input line 564.
+
+
+
+LaTeX Warning: Citation `Kaufman2016' on page 16 undefined on input line 564.
+
+
+LaTeX Warning: Citation `Bohigas1984' on page 16 undefined on input line 566.
+
+
+LaTeX Warning: Citation `Goldstein2006' on page 16 undefined on input line 568.
+
+
+[16]
+
+LaTeX Warning: Citation `PorterThomas1956' on page 17 undefined on input line 5
+88.
+
+[17]
+
+LaTeX Warning: Citation `Goldstein2006' on page 18 undefined on input line 636.
+
+
+
+LaTeX Warning: Reference `sec:experiments' on page 18 undefined on input line 6
+38.
+
+
+LaTeX Warning: Citation `Yang2025' on page 18 undefined on input line 646.
+
+[18]
+
+LaTeX Warning: Reference `sec:experiments' on page 19 undefined on input line 6
+95.
+
+[19]
+Overfull \hbox (734.20445pt too wide) in paragraph at lines 758--759
+ [][] 
+
+Overfull \hbox (506.68686pt too wide) in paragraph at lines 798--799
+ [][] 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.799 ...regions separated by X_0 = X_1 boundary.}
+                                                  
+! Missing $ inserted.
+<inserted text> 
+                $
+l.799 ...regions separated by X_0 = X_1 boundary.}
+                                                  
+! Missing $ inserted.
+<inserted text> 
+                $
+l.799 ...regions separated by X_0 = X_1 boundary.}
+                                                  
+! Missing $ inserted.
+<inserted text> 
+                $
+l.799 ...regions separated by X_0 = X_1 boundary.}
+                                                  
+
+Underfull \hbox (badness 3977) in paragraph at lines 799--799
+[]\OT1/cmr/m/n/10.95 Figure 3: []Ensemble statis-tics from $10[]$ sim-u-la-tion
+s. \OT1/cmr/bx/n/10.95 (A) \OT1/cmr/m/n/10.95 Out-come fre-quen-cies re-
+
+Underfull \hbox (badness 3482) in paragraph at lines 799--799
+\OT1/cmr/m/n/10.95 pro-duce Born rule prob-a-bil-i-ties within sta-tis-ti-cal e
+r-ror. \OT1/cmr/bx/n/10.95 (B) \OT1/cmr/m/n/10.95 Per-fect cor-re-la-tion be-
+[20]
+
+LaTeX Warning: Reference `sec:born' on page 21 undefined on input line 815.
+
+
+LaTeX Warning: Reference `tab:N_convergence' on page 21 undefined on input line
+ 828.
+
+
+! LaTeX Error: Unicode character ∼ (U+223C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.858 ...re utterly undetectable (≲ 10⁻²³).}
+                                                  
+
+! LaTeX Error: Unicode character ≲ (U+2272)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.858 ...re utterly undetectable (≲ 10⁻²³).}
+                                                  
+
+! LaTeX Error: Unicode character ⁻ (U+207B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.858 ...re utterly undetectable (≲ 10⁻²³).}
+                                                  
+
+! LaTeX Error: Unicode character ∼ (U+223C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.858 ...re utterly undetectable (≲ 10⁻²³).}
+                                                  
+
+! LaTeX Error: Unicode character ≲ (U+2272)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.858 ...re utterly undetectable (≲ 10⁻²³).}
+                                                  
+
+! LaTeX Error: Unicode character ⁻ (U+207B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.858 ...re utterly undetectable (≲ 10⁻²³).}
+                                                  
+! Missing $ inserted.
+<inserted text> 
+                $
+l.918 ...l form as apparatus dimension increases.}
+                                                  
+! Missing $ inserted.
+<inserted text> 
+                $
+l.918 ...l form as apparatus dimension increases.}
+                                                  
+! Missing $ inserted.
+<inserted text> 
+                $
+l.918 ...l form as apparatus dimension increases.}
+                                                  
+! Missing $ inserted.
+<inserted text> 
+                $
+l.918 ...l form as apparatus dimension increases.}
+                                                  
+
+Underfull \hbox (badness 1184) in paragraph at lines 918--918
+[]\OT1/cmr/m/n/10.95 Figure 5: []Detailed con-ver-gence anal-y-sis. \OT1/cmr/bx
+/n/10.95 (Main) \OT1/cmr/m/n/10.95 De-vi-a-tion mag-ni-tude vs 1/N demon-
+
+Underfull \hbox (badness 10000) in paragraph at lines 918--918
+\OT1/cmr/m/n/10.95 strates per-fect lin-ear scal-ing, con-firm-ing the-o-ret-i-
+cal Beta\TS1/cmr/m/n/10.95 ^^Y\OT1/cmr/m/n/10.95 Exponential con-ver-gence
+
+Underfull \hbox (badness 2828) in paragraph at lines 918--918
+\OT1/cmr/m/n/10.95 pre-dic-tion. \OT1/cmr/bx/n/10.95 (In-set) \OT1/cmr/m/n/10.9
+5 His-tograms of over-lap dis-tri-bu-tions X$[]\OML/cmm/m/it/10.95 forN \OT1/cm
+r/m/n/10.95 = 10(\OML/cmm/m/it/10.95 red\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95
+ andN \OT1/cmr/m/n/10.95 =
+
+Overfull \hbox (167.19226pt too wide) in paragraph at lines 918--918
+\OT1/cmr/m/n/10.95 100(\OML/cmm/m/it/10.95 blue\OT1/cmr/m/n/10.95 )\OML/cmm/m/i
+t/10.95 comparedtoExp\OT1/cmr/m/n/10.95 (1)\OML/cmm/m/it/10.95 limit\OT1/cmr/m/
+n/10.95 (\OML/cmm/m/it/10.95 blackcurve\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 
+; showingprogressiveconvergencetoexponentialformasapparatusdimensionincreases:$
+ 
+[21]
+
+LaTeX Warning: Reference `sec:born' on page 22 undefined on input line 928.
+
+
+LaTeX Warning: Reference `sec:experiments' on page 22 undefined on input line 9
+36.
+
+[22]
+Overfull \hbox (4.59357pt too wide) in paragraph at lines 947--948
+\OT1/cmr/m/n/10.95 com-pu-ta-tion-ally and yield the de-sired phys-i-cal be-hav
+-ior, in-clud-ing the pre-dicted Beta-to-Exponential
+[23] [24]
+
+LaTeX Warning: Citation `Yang2025' on page 25 undefined on input line 1016.
+
+
+Overfull \hbox (12.07693pt too wide) in paragraph at lines 1028--1029
+ []\OT1/cmr/bx/n/10.95 Comparison:[] \OT1/cmr/m/n/10.95 Al-ter-nate be-tween sq
+ueezed-apparatus tri-als and thermal-apparatus tri-als (no squeez-
+[25] [26] [27]
+Overfull \hbox (1.89972pt too wide) in paragraph at lines 1124--1125
+[]\OT1/cmr/bx/n/10.95 Distinguishing from clas-si-cal noise re-duc-tion\OT1/cmr
+/m/n/10.95 : Con-trol ex-per-i-ment ap-plies anti-squeezing
+[28] [29]
+
+LaTeX Warning: Reference `tab:predictions' on page 30 undefined on input line 1
+177.
+
+[30] [31]
+
+LaTeX Warning: Reference `tab:superdeterminism_comparison' on page 32 undefined
+ on input line 1274.
+
+
+Overfull \hbox (70.9797pt too wide) in paragraph at lines 1280--1294
+ [][] 
+
+Overfull \hbox (7.94827pt too wide) in paragraph at lines 1296--1297
+ []\OT1/cmr/bx/n/10.95 Measurement in-de-pen-dence is pre-served.[] \OT1/cmr/m/
+n/10.95 In our frame-work, the ap-pa-ra-tus mi-crostate $[]$
+
+LaTeX Warning: Reference `sec:experiments' on page 32 undefined on input line 1
+304.
+
+[32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46]
+[47]
+
+LaTeX Warning: Citation `Johansson2012' on page 48 undefined on input line 1963
+.
+
+[48] (draft.bbl [49]) [50] (draft.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `draft.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information) <C:\Users\Patrick\scoop\ap
+ps\latex\current\texmfs/data\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:
+/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/amsfo
+nts/cm/cmbx10.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Patrick/scoop/apps/latex/curre
+nt/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Patrick/sc
+oop/apps/latex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmbxti10.p
+fb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmex10.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/insta
+ll/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Patrick/scoop/apps/latex
+/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Pat
+rick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmm
+i6.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/in
+stall/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Patrick/scoop/apps/lat
+ex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Pa
+trick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cm
+r12.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/i
+nstall/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Patrick/scoop/apps/lat
+ex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Pat
+rick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmr
+7.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/inst
+all/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Patrick/scoop/apps/late
+x/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Pat
+rick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cms
+y7.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/in
+stall/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Patrick/scoop/apps/la
+tex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/
+Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/amsfonts/sym
+bols/msam10.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts
+/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on draft.pdf (50 pages, 593487 bytes).
+Transcript written on draft.log.
+pdflatex: major issue: So far, you have not checked for MiKTeX updates.

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(pdflatex:*)",
+      "Bash(grep:*)",
+      "Bash(copy draft.tex draft.tex.bak)",
+      "Bash(bibtex:*)",
+      "Bash(pdfinfo:*)",
+      "Bash(powershell.exe -Command \"Get-Content ''C:\\Users\\Patrick\\physics\\draft.log'' | Select-String -Pattern ''Missing $'' -Context 3,3\")",
+      "Bash(powershell.exe -Command \"Get-ChildItem ''C:\\Users\\Patrick\\physics\\draft.pdf'' | Select-Object Name, Length, LastWriteTime\")",
+      "Bash(powershell.exe -Command \"Get-ChildItem ''C:\\Users\\Patrick\\physics\\draft.pdf'' | Select-Object Name, @{Name=''Size (KB)'';Expression={[math]::Round($_Length/1KB,1)}}, LastWriteTime\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

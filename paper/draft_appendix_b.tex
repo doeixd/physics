@@ -1,0 +1,25 @@
+
+\section{QFT Extension (Preliminary Sketch)}
+\label{app:qft}
+
+\textit{Note: This section represents a preliminary sketch of how the framework extends to Quantum Field Theory. Rigorous formulation is work in progress.}
+
+Extending the Deterministic Information-Driven Collapse framework to QFT requires elevating the information current and collapse functional to field-theoretic operators.
+
+\subsection{Covariant Information Currents}
+
+In QFT, the wavefunction $\psi(x)$ is replaced by the field functional $\Psi[\phi]$. The information current $J^\mu_{ij}(x)$ must be defined in terms of the stress-energy tensor difference between branches.
+
+We propose:
+\begin{equation}
+    J^\mu_{ij}(x) \propto \langle \phi_i | : \hat{T}^{\mu\nu}(x) : | \phi_i \rangle - \langle \phi_j | : \hat{T}^{\mu\nu}(x) : | \phi_j \rangle
+\end{equation}
+This connects distinguishability directly to physical energy-momentum configurations.
+
+\subsection{Renormalization Challenges}
+
+The nonlinear collapse term $\mathcal{D}[\rho]$ introduces new interaction vertices. Since the collapse is super-renormalizable (being an infrared modification), we expect it to be well-defined, but the exact counter-terms required to strictly preserve Lorentz covariance at the loop level are unknown.
+
+\subsection{Particle Creation}
+
+The fixed Hilbert space of NRQM is replaced by Fock space. The specific problem of "collapse collisions" (outcomes creating new particles) requires the collapse operator to acting on the Fock layers. We conjecture that the threshold $\Delta_{\text{crit}}$ scales with particle number $N$, providing a natural cutoff for high-energy fluctuations.

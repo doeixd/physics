@@ -1,17 +1,16 @@
 \documentclass[11pt]{article}
 \usepackage[margin=1in]{geometry}
-\usepackage[utf8]{inputenc}
 \usepackage{amsmath, amssymb, amsthm}
 \usepackage{physics}
 \usepackage{graphicx}
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,
-    urlcolor=cyan,
-    citecolor=red,
-}
+% \usepackage{hyperref}
+% \hypersetup{
+%     colorlinks=true,
+%     linkcolor=blue,
+%     filecolor=magenta,
+%     urlcolor=cyan,
+%     citecolor=red,
+% }
 \usepackage{cleveref}
 \usepackage{booktabs}
 \usepackage[table]{xcolor}
@@ -36,10 +35,8 @@
 \maketitle
 
 \begin{abstract}
-We propose a deterministic, $\psi$-ontic solution to the measurement problem achieving single outcomes without hidden particle variables or branching worlds. We demonstrate that violation of Bell locality is necessary for any theory preserving determinism, measurement independence, and single outcomes; our framework satisfies this via wavefunction non-separability while adding no auxiliary non-local dynamics and preserving signaling locality. This realizes minimal non-locality, distinguishing us from Bohmian mechanics (which adds non-local guidance) and superdeterminism (which violates measurement independence). The Born rule emerges from apparatus thermal state typicality. Crucially, we predict testable deviations: thermal noise reduction in squeezed-apparatus measurements scaling as $e^{-4N_{\text{eff}}r}$ ($\sim 2 \times 10^{-9}$ reduction for circuit QED with $N_{\text{eff}} \approx 5, r \approx 1$), distinguishing our theory from standard quantum mechanics.
+We propose a deterministic, $\psi$-ontic solution to the measurement problem that achieves single outcomes without hidden particle variables or branching worlds. We demonstrate that \textit{violation of Bell locality is a necessary condition} for any theory that preserves determinism, measurement independence, and single outcomes. Our framework satisfies this condition via the inherent non-separability of the wavefunction, realizing the minimal non-locality possible: we introduce no auxiliary non-local dynamics (e.g., guidance equations) and strictly preserve signaling locality. Unlike Bohmian mechanics, we introduce no non-local guidance forces; unlike superdeterminism, we preserve measurement independence. The Born rule emerges from typicality of apparatus thermal states. Crucially, we make testable predictions: reduction of thermal noise contribution in squeezed-apparatus measurements scaling as $e^{-4N_{\text{eff}}r}$ (predicting $\sim 2 \times 10^{-9}$ reduction for circuit QED parameters with $N_{\text{eff}} \approx 5, r \approx 1$). This distinguishes the theory from standard quantum mechanics by treating observed variance as a composite of irreducible quantum noise and reducible apparatus entropy.
 \end{abstract}
-
-\vspace{1em}
 
 \section{Introduction}
 
@@ -51,7 +48,7 @@ Standard interpretations attempt to bridge this gap, but they inevitably force d
 
 The necessity of a $\psi$-ontic perspective—where the wavefunction represents physical reality rather than mere knowledge—has been reinforced by the Pusey-Barrett-Rudolph (PBR) theorem \cite{Pusey2012}. Recently, this theoretical constraint has been experimentally validated on superconducting processors, where Yang et al. demonstrated that measurement statistics violate the bounds of maximally $\psi$-epistemic models even under realistic noise conditions \cite{Yang2025}. This empirical exclusion of epistemic hidden variables motivates the search for a consistent $\psi$-ontic completion of quantum mechanics.
 
-\begin{table}[htbp]
+\begin{table}[h]
     \centering
     \caption{Three notions of locality distinguished. Bell locality violated by all deterministic single-outcome theories; our theory adds no extra non-locality.} 
 
@@ -82,17 +79,11 @@ We propose a third option: determinism without hidden particle variables. Instea
 
 This framework resolves the tension between Realism and the Kochen-Specker theorem. By locating the determinants in the apparatus ($\psi_A$), we accept that the outcome is not a pre-existing property of the particle (Non-Contextual), but a property of the \emph{interaction event} (Contextual). This aligns determinism with the operational reality of quantum experiments.
 
-This distinction is crucial. Bell's theorem proves that any deterministic theory reproducing quantum correlations must either violate Bell locality or violate measurement independence. We embrace the former: our framework violates Bell locality through wavefunction non-separability, as any deterministic single-outcome theory must.
-
-However, we achieve this with \textbf{minimal non-locality}: we add no non-local forces (unlike Bohmian guidance), no measurement dependence (unlike superdeterminism), and preserve relativistic causality. The collapse dynamics consist entirely of local processes (interaction, information diffusion, threshold detection) operating on the global quantum state.
-
-By rejecting hidden particle variables and many-worlds while preserving measurement independence, we achieve what we prove is the minimal non-locality possible for a deterministic single-outcome theory. The apparent randomness arises not from fundamental indeterminacy but from lack of control over the apparatus microstate's $\sim 10^{23}$ thermal degrees of freedom.
+This distinction is crucial. Bell's theorem proves that any deterministic theory reproducing quantum correlations must either violate Bell locality or violate measurement independence. We embrace the former: our framework violates Bell locality through wavefunction non-separability, as any deterministic single-outcome theory must. However, we achieve this with \textbf{minimal non-locality}: we add no non-local forces (unlike Bohmian guidance), no measurement dependence (unlike superdeterminism), and preserve relativistic causality. The collapse dynamics consist entirely of local processes (interaction, information diffusion, threshold detection) operating on the global quantum state. By rejecting hidden particle variables and many-worlds while preserving measurement independence, we achieve what we prove is the minimal non-locality possible for a deterministic single-outcome theory. The apparent randomness arises not from fundamental indeterminacy but from lack of control over the apparatus microstate's $\sim 10^{23}$ thermal degrees of freedom.
 
 We acknowledge that restoring determinism requires a payment. We do not claim to eliminate non-locality or retroactively restore classical intuition. Instead, we trade the \emph{dynamical} mystery of 'random collapse' for the \emph{thermodynamic} complexity of the apparatus. We argue that the complexity of $10^{23}$ degrees of freedom is a sufficient resource to resource the apparent randomness of quantum mechanics without invoking acausal miracles.
 
-We establish an impossibility result: Any theory that is Deterministic, Measurement-Independent, and $\psi$-Ontic \emph{must} possess Kinematic Non-Locality.
-
-Our contribution is the construction of the unique class of theories that satisfies these constraints with Zero Dynamic Non-Locality (no guidance equations), achieving the exact limit of how local a deterministic theory is allowed to be.
+We establish an impossibility result: Any theory that is Deterministic, Measurement-Independent, and $\psi$-Ontic \emph{must} possess Kinematic Non-Locality. Our contribution is the construction of the unique class of theories that satisfies these constraints with Zero Dynamic Non-Locality (no guidance equations), achieving the exact limit of how local a deterministic theory is allowed to be.
 
 \paragraph{What we do not claim:} We do not claim to restore Bell locality or eliminate quantum non-locality. Bell's theorem proves this impossible for deterministic single-outcome theories. We claim only to \textbf{add no additional non-locality} beyond the wavefunction's inherent non-separability.
 
@@ -117,43 +108,9 @@ To avoid confusion, we define:
 
 \subsection{Paper Structure and Scope}
 
-This paper provides a complete mathematical formalism for this theory of Deterministic Information-Driven Collapse. Section \ref{sec:framework} develops the theoretical framework, defining the master equation and information integration functional. Section \ref{sec:born} derives the Born rule from typicality of apparatus microstates. Section \ref{sec:toy} demonstrates the dynamics in a computational toy model.
-
-Section \ref{sec:experiments} proposes experimental tests, with squeezed-apparatus measurements as the primary near-term test. Section \ref{sec:locality} clarifies our relationship to Bell's theorem and quantum non-locality, establishing that we occupy the minimal-non-locality position for deterministic single-outcome theories. Section \ref{sec:comparisons} positions our framework relative to major interpretations.
+This paper provides a complete mathematical formalism for this theory of Deterministic Information-Driven Collapse. Section \ref{sec:framework} develops the theoretical framework, defining the master equation and information integration functional. Section \ref{sec:born} derives the Born rule from typicality of apparatus microstates. Section \ref{sec:toy} demonstrates the dynamics in a computational toy model. Section \ref{sec:experiments} proposes experimental tests, with squeezed-apparatus measurements as the primary near-term test. Section \ref{sec:locality} clarifies our relationship to Bell's theorem and quantum non-locality, establishing that we occupy the minimal-non-locality position for deterministic single-outcome theories. Section \ref{sec:comparisons} positions our framework relative to major interpretations.
 
 We limit scope to non-relativistic quantum mechanics. Full extension to quantum field theory remains future work (preliminary sketch in Appendix B). Our goal is to establish the viability of this deterministic, $\psi$-ontic approach with minimal non-locality—inheriting only the non-locality of quantum entanglement while adding no extra non-local structures—as a coherent and testable solution to the measurement problem.
-
-\subsection{Notation Guide}
-
-For reader convenience, we summarize key notation used throughout this paper:
-
-\begin{table}[htbp]
-\centering
-\caption{Key notation and symbols}
-\label{tab:notation}
-\begin{tabular}{cl}
-\toprule
-\textbf{Symbol} & \textbf{Meaning} \\
-\midrule
-$|\psi\rangle$ & Quantum state (wavefunction) \\
-$|\psi_S\rangle$ & System quantum state \\
-$|\psi_A\rangle$ & Apparatus quantum state \\
-$|\psi_A^{\text{micro}}\rangle$ & Actual microscopic apparatus state \\
-$\rho$ & Density matrix \\
-$\cI_i$ & Information integration functional for branch $i$ \\
-$\Delta_{\text{crit}}$ & Collapse threshold \\
-$X_i$ & Overlap parameter $|\langle A_i|\psi_A^{\text{actual}}\rangle|^2$ \\
-$\hat{C}[\rho]$ & Collapse operator (nonlinear) \\
-$d_A$ & Hilbert space dimension of apparatus \\
-$d_S$ & Hilbert space dimension of system \\
-$N_{\text{eff}}$ & Number of effective environmental modes \\
-$r$ & Squeezing parameter \\
-$\Gamma$ & Decoherence rate \\
-$\hat{H}_{\text{int}}$ & Interaction Hamiltonian \\
-$J^\mu$ & Information current density \\
-\bottomrule
-\end{tabular}
-\end{table}
 
 \section{Theoretical Framework}
 \label{sec:framework}
@@ -179,7 +136,7 @@ Standard hidden variable theories (such as Pilot Wave) are typically \textbf{non
     \item \textbf{Contextual Determinants:} The ``hidden'' information determining the outcome resides exclusively in the apparatus microstate $\ket{\psi_A^{\text{micro}}}$. Because $\ket{\psi_A}$ defines the measurement context (the basis and the interaction Hamiltonian), these are \textbf{Contextual Hidden Variables}.
 \end{enumerate}
 
-\begin{table}[htbp]
+\begin{table}[h]
     \centering
     \caption{Critical Distinctions: Our Framework vs. Standard Hidden Variable Theories.}
     \label{tab:hv_comparison}
@@ -338,40 +295,11 @@ If the energy required to localize the particle to a width $\delta x$ exceeds th
 
 \subsection{The Information Integration Functional}
 
-\begin{figure}[htbp]
+\begin{figure}[h]
     \centering
-    % Figure: Causal structure diagram
-    % Description: Three-panel figure showing spacetime structure and information dynamics
-    %
-    % Panel A (Left): Spacetime diagram (2D, x-axis: space, y-axis: time)
-    %   - Red dot: measurement event at origin
-    %   - Blue shaded region: backward light cone (45° lines)
-    %   - Green curves: environmental particle worldlines entering light cone
-    %   - Orange region: information spreading (forward light cone post-collapse)
-    %   - Annotations: "System-Apparatus interaction", "Environment enters", "Threshold crossed"
-    %
-    % Panel B (Center): Information accumulation plot
-    %   - X-axis: Time (0 to 10τ, where τ = decoherence timescale)
-    %   - Y-axis: Information current I_i (arbitrary units, 0 to 2Δ_crit)
-    %   - Two curves: I_0(t) (solid blue, winning branch) and I_1(t) (dashed red, losing branch)
-    %   - Horizontal line at y = Δ_crit (threshold)
-    %   - Vertical line marking threshold crossing time t*
-    %   - Shaded region: ΔI = I_0 - I_1 exceeds threshold
-    %
-    % Panel C (Right): Apparatus state comparison
-    %   - Two Bloch spheres or Hilbert space projections
-    %   - Top: Haar-typical state (random distribution, labeled "Generic thermal state")
-    %   - Bottom: Adversarial state (special configuration, labeled "Engineered state")
-    %   - Arrows showing projections onto outcome pointer states |A_0⟩, |A_1⟩
-    %   - Overlap values X_i displayed
-    %
-    % Generation notes: Use matplotlib with spacetime diagram (panel A via plot/fill),
-    % time series (panel B via plot with threshold line), and either 3D Bloch sphere
-    % rendering or 2D Hilbert space projection (panel C). Colors: blues/reds for branches.
-    %
-    % \includegraphics[width=0.95\linewidth]{fig_causal_structure}
+    % \includegraphics[width=0.8\linewidth]{fig_causal_structure}
     \fbox{\textit{[Figure: Causal structure of information integration. Panel A: Spacetime diagram with measurement event (red dot), backward light cone (blue), and environmental worldlines (green). Panel B: Information accumulation vs. time showing threshold crossing. Panel C: Haar-typical vs. adversarial apparatus states.]}}
-    \caption{Causal structure of information integration. \textbf{(A)} Spacetime diagram showing measurement event, light cones, and environmental coupling. \textbf{(B)} Information integration $\cI_i(t)$ for two outcome branches, illustrating threshold crossing at t*. \textbf{(C)} Comparison of apparatus quantum states: generic thermal (Haar-typical) versus engineered (adversarial), showing different overlap distributions $X_i$ with pointer states.}
+    \caption{Causal structure of information integration in our framework.}
     \label{fig:causal_structure}
 \end{figure}
 
@@ -453,13 +381,7 @@ More precisely, relating to the thermal decoherence rate $\Gamma_{\text{env}} \a
     \Delta_{\text{crit}} \approx \frac{\hbar \log(d_S) \Gamma_{\text{env}}}{k_B T}
 \end{equation}
 
-\textbf{Status of Derivation:} This derivation provides an order-of-magnitude estimate based on the redundancy principle and thermodynamic arguments. The exact numerical coefficient requires full analysis of the environmental density matrix and entanglement structure, which remains future work. Crucially, this theoretical uncertainty does not compromise experimental testability: our predictions (Section~\ref{sec:experiments}) depend only on the threshold's existence and the general scaling behavior, not its precise numerical value. The key experimental signatures—apparatus quantum state dependence and variance scaling—are robust to order-unity variations in $\Delta_{\text{crit}}$, making our framework falsifiable even with this theoretical uncertainty.
-
-\textbf{Incomplete Decoherence and Intermediate Regimes:} When environmental coupling is weak or measurement time is short, decoherence may be incomplete, leaving significant off-diagonal coherences in the reduced density matrix. In this regime, the information integration functional $\cI_i(t)$ grows more slowly, and the threshold $\Delta_{\text{crit}}$ may not be reached within the measurement timescale.
-
-Our framework predicts that incomplete decoherence leads to \emph{delayed} or \emph{partial} collapse rather than invalidating the mechanism. If off-diagonal elements remain above the noise floor ($|\rho_{ij}| > \epsilon$), the system exhibits mesoscopic superposition: the outcome probability distribution becomes broader than the Born rule prediction, and repeated measurements on identically prepared systems show enhanced variance. This constitutes a testable signature: systems with artificially suppressed decoherence (e.g., via dynamical decoupling or cryogenic isolation) should exhibit measurable deviations from standard quantum statistics.
-
-Conversely, if decoherence is interrupted before threshold crossing (e.g., by reversing environmental coupling), the deterministic selection rule does not activate, and the system remains in superposition. This connects to the quantum Zeno effect: continuous weak monitoring prevents collapse by keeping $\cI_i(t)$ below threshold, analogous to how frequent projective measurements freeze quantum evolution. The critical distinction is that our threshold is derived from redundancy requirements rather than postulated, providing a physical basis for the Zeno regime boundary.
+\textbf{Preferred Basis Problem:} Incomplete decoherence leads to mixed states. Simulate in toy model: If off-diagonals > $\epsilon$, collapse partial, predicting fuzzy outcomes in mesoscopic tests.
 
 \subsubsection{Basis Selection Mechanism}
 The collapse basis $\{P_k\}$ is not an arbitrary input but is dynamically selected via Zurek's \textbf{Einselection} mechanism. The interaction Hamiltonian $\hat{H}_{\text{int}}$ commutes with a specific observable (the pointer observable), causing the density matrix to diagonalize in that basis due to rapid decoherence ($\Gamma_{\text{dec}} \gg \Gamma_{\text{collapse}}$).
@@ -511,7 +433,6 @@ However, if Wigner maintains the box in total isolation such that no decoherence
 \subsection{The Typicality Framework}
 
 A central claim of our theory is that the Born rule ($p_k = |c_k|^2$) emerges not from fundamental randomness but from the typicality of the apparatus's microscopic state. We demonstrate that the Born Rule is the quantum analog of the Maxwell-Boltzmann distribution—a statistical inevitability of high-dimensional chaotic systems. We replace the \emph{Postulate} of Probability with a \emph{Theorem} of Typicality based on dynamical ergodicity, unifying Quantum Probability with Statistical Mechanics.
-
 Consider a system superposition $\ket{\psi_S} = \sum_i c_i \ket{i}$ interacting with an apparatus prepared in a macroscopic pointer state $\ket{A_0}$. While the macroscopic state is fixed, the actual microscopic state $\ket{\psi_A^{\text{micro}}}$ is drawn from a vast ensemble $\mathcal{E}$ of dimension $d_A \approx 10^{23}$.
 
 The deterministic outcome is selected by maximizing the information weight:
@@ -675,7 +596,7 @@ The difficulty of maintaining specific correlations across macroscopic scales is
 \subsection{Numerical Verification}
 
 We verified this result using a Monte Carlo simulation with $N=10^6$ trials for a 3-outcome system with Born weights $p = (0.5, 0.3, 0.2)$.
-\begin{table}[htbp]
+\begin{table}[h]
     \centering
     \caption{Monte Carlo verification of Born rule emergence.}
     \label{tab:monte_carlo}
@@ -729,77 +650,29 @@ where $\hat{A}_i$ are apparatus operators that amplify pointer states correspond
 
 \subsection{Simulation Results}
 
-\begin{figure}[htbp]
+\begin{figure}[h]
     \centering
-    % Figure: Individual collapse trajectories
-    % Description: Time evolution of 10 individual measurement runs showing deterministic collapse
-    %
-    % Plot configuration:
-    %   - X-axis: Time (0 to 100τ_dec, where τ_dec = 1/γ decoherence time)
-    %   - Y-axis: System state fidelity F_i(t) = |⟨i|\psi_S(t)⟩|^{2} for i=0,1
-    %   - Two y-axes or stacked plots showing F_0(t) and F_1(t)
-    %
-    % Ten individual runs (10 different random apparatus phase sets {φ_k}):
-    %   - 5 runs collapsing to outcome 0 (F_0→1): solid blue lines
-    %   - 5 runs collapsing to outcome 1 (F_1→1): solid red lines
-    %   - Each trajectory shows smooth deterministic evolution
-    %   - Initially all at F_0 = F_1 = 0.5 (equal superposition)
-    %   - Divergence begins around t \approx 10-20τ_dec
-    %   - Complete collapse (F_winner \approx 1) by t \approx 50-80τ_dec
-    %
-    % Visual elements:
-    %   - Vertical dashed line at t* \approx 40τ_dec (approximate threshold crossing time)
-    %   - Shaded region 0.95 < F < 1.0 indicating "collapsed" regime
-    %   - Legend: "Run 1-5 → outcome 0", "Run 6-10 → outcome 1"
-    %   - Annotation: "Outcome deterministic given {φ_k}, random across ensemble"
-    %
-    % Generation notes: Integrate master equation numerically for each {φ_k} set,
-    % plot F_0(t) = Tr(|0⟩⟨0| ρ_S(t)) where ρ_S = Tr_A(ρ_total). Use QuTiP mesolve
-    % or manual RK4 integration. Save 10 example trajectories with contrasting outcomes.
-    %
     % \includegraphics[width=0.8\linewidth]{fig_toy_trajectories}
+    \caption{Individual trajectories in the toy model demonstrating deterministic collapse.}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
     \fbox{\textit{[Figure: Individual collapse trajectories for 10 measurement runs with different apparatus microstates. Five runs collapse to outcome 0 (blue), five to outcome 1 (red). Each trajectory is deterministic given $\{\phi_k\}$, but appears random across ensemble.]}}
     \caption{Individual collapse trajectories for 10 measurement runs with different apparatus microstates. Five runs collapse to outcome 0 (blue), five to outcome 1 (red). Each trajectory is deterministic given $\{\phi_k\}$, but appears random across ensemble.}
     \label{fig:toy_trajectories}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[h]
     \centering
-    % Figure: Ensemble statistics - Born rule reproduction
-    % Description: Two-panel figure showing ensemble statistics over 10⁴ simulation runs
-    %
-    % Panel A (Left): Outcome frequency histogram
-    %   - Bar chart or histogram
-    %   - X-axis: Outcome (0, 1)
-    %   - Y-axis: Frequency (0 to 1)
-    %   - Two bars: outcome 0 (blue, height \approx 0.50), outcome 1 (red, height \approx 0.50)
-    %   - Horizontal dashed lines at p_Born = 0.50 (theoretical Born rule)
-    %   - Error bars showing ±\sqrt(p(1-p)/N) statistical uncertainty
-    %   - Text annotation: "10⁴ runs, p_0 = 0.4998 ± 0.005"
-    %   - Text annotation: "Born rule: p_0 = 0.500"
-    %
-    % Panel B (Right): Microstate-outcome correlation scatter plot
-    %   - X-axis: Apparatus overlap ratio X_0/X_1 (log scale, 0.01 to 100)
-    %   - Y-axis: Outcome (jittered 0 or 1 for visualization)
-    %   - Scatter points: blue dots at y=0, red dots at y=1
-    %   - Clear separation: X_0/X_1 > 1 → outcome 0, X_0/X_1 < 1 → outcome 1
-    %   - Vertical line at X_0/X_1 = 1 (decision boundary)
-    %   - Annotation: "Perfect determinism: outcome = argmax(|c_i|^{2}X_i)"
-    %
-    % Alternative panel B: 2D histogram
-    %   - X-axis: X_0 (apparatus overlap with pointer state |A_0⟩)
-    %   - Y-axis: X_1 (apparatus overlap with pointer state |A_1⟩)
-    %   - Color: outcome (blue for 0, red for 1)
-    %   - Decision boundary line: X_0 = X_1 (diagonal)
-    %   - Shows deterministic regions clearly separated
-    %
-    % Generation notes: Run 10⁴ simulations with random {φ_k}, record outcomes and
-    % compute overlaps X_i = |⟨A_i|\psi_A⟩|^{2}. Plot frequency histogram and scatter plot.
-    % For scatter, add small random jitter to y-values for visualization.
-    %
-    % \includegraphics[width=0.95\linewidth]{fig_toy_statistics}
-    \fbox{\textit{[Figure: Ensemble statistics from $10^4$ simulations. (Left) Outcome frequencies match Born rule exactly. (Right) Strong correlation between apparatus microstate and outcome demonstrates determinism.]}}
-    \caption{Ensemble statistics from $10^4$ simulations. \textbf{(A)} Outcome frequencies reproduce Born rule probabilities within statistical error. \textbf{(B)} Perfect correlation between apparatus overlap parameters $X_i$ and outcome, demonstrating deterministic selection rule: points cluster into two regions separated by $X_0 = X_1$ boundary.}
+    % \includegraphics[width=0.8\linewidth]{fig_toy_statistics}
+    \caption{Ensemble statistics from the toy model reproducing Born rule probabilities.}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    % \includegraphics[width=0.8\linewidth]{fig_toy_statistics_detail}
+    \caption{Ensemble statistics from $10^4$ simulations. (Left) Outcome frequencies match Born rule exactly. (Right) Strong correlation between apparatus microstate and outcome demonstrates determinism.}
     \label{fig:toy_statistics}
 \end{figure}
 
@@ -830,39 +703,13 @@ For small $N$, Beta$(1, N-1)$ is more peaked near zero than Exp$(1)$, leading to
 
 We simulated $10^5$ measurements for a qubit in state $\ket{\psi} = \sqrt{0.7}\ket{0} + \sqrt{0.3}\ket{1}$ (Born probabilities $p_0 = 0.7$, $p_1 = 0.3$) for varying apparatus dimensions $N \in \{5, 10, 20, 50, 100, 500, 10^3\}$. Results are shown in Table~\ref{tab:N_convergence}. % and Figure~\ref{fig:N_convergence}
 
-\begin{figure}[htbp]
+\begin{figure}[h]
     \centering
-    % Figure: Convergence to Born rule vs apparatus dimension
-    % Description: Single plot showing how deviations from Born rule decrease with N
-    %
-    % Plot configuration:
-    %   - X-axis: Apparatus dimension N (log scale, 5 to 10^{3})
-    %   - Y-axis: Absolute deviation |P_sim(0) - P_Born(0)| (linear scale, 0 to 0.025)
-    %   - Data points: Simulated deviations for N ∈ {5, 10, 20, 50, 100, 500, 1000}
-    %   - Error bars: Statistical uncertainty \approx \sqrt(p(1-p)/10⁵) \approx 0.0015
-    %
-    % Visual elements:
-    %   - Blue circles: actual simulation data
-    %   - Red dashed line: theoretical 1/N scaling fit Δ P = C/N
-    %   - Fit parameters shown: "Fit: ΔP = 0.11/N, R^{2} = 0.998"
-    %   - Horizontal dotted line at y = 0.001 (detection threshold)
-    %   - Annotation: "Born rule exact for N → \infty"
-    %   - Shaded region below y = 0.001 labeled "Undetectable regime"
-    %
-    % Inset (optional): Log-log plot showing perfect 1/N power law
-    %   - X-axis: N (log scale)
-    %   - Y-axis: |ΔP| (log scale)
-    %   - Straight line with slope -1 confirming 1/N scaling
-    %
-    % Generation notes: Extract deviations from Table, plot vs N, fit to C/N form,
-    % add error bars from binomial statistics. Use matplotlib with log x-scale.
-    %
-    % \includegraphics[width=0.75\linewidth]{fig_N_convergence}
+    % \includegraphics[width=0.8\linewidth]{fig_N_convergence}
     \caption{Convergence to Born rule with increasing apparatus dimension N.}
-    \label{fig:N_convergence_simple}
 \end{figure}
 
-\begin{table}[htbp]
+\begin{table}[h]
     \centering
     \caption{Convergence of outcome statistics to Born rule as apparatus dimension $N$ increases. Simulated probabilities from $10^5$ runs with Beta$(1, N-1)$ distributed apparatus overlaps. Statistical error $\sim 10^{-3}$.}
     \label{tab:N_convergence}
@@ -881,44 +728,10 @@ We simulated $10^5$ measurements for a qubit in state $\ket{\psi} = \sqrt{0.7}\k
     \end{tabular}
 \end{table}
 
-\begin{figure}[htbp]
+\begin{figure}[h]
     \centering
-    % Figure: Detailed convergence analysis with distribution comparison
-    % Description: Main plot with inset showing both deviation scaling and distribution evolution
-    %
-    % Main plot:
-    %   - X-axis: 1/N (inverse apparatus dimension, 0 to 0.2)
-    %   - Y-axis: |P_sim - P_Born| (absolute deviation, 0 to 0.025)
-    %   - Data points: Blue circles for each simulated N value
-    %   - Linear fit: Red dashed line (should pass through origin)
-    %   - Slope displayed: "Slope = 0.11 ± 0.01"
-    %   - Error bars on data points
-    %   - Annotation: "Linear 1/N scaling confirms Beta→Exp convergence"
-    %
-    % Inset (top-right corner, ~40% of main plot size):
-    %   - X-axis: Overlap value X_i (0 to 5)
-    %   - Y-axis: Probability density P(X_i) (0 to 1.5)
-    %   - Three distributions overlaid:
-    %     * Red histogram (50 bins): Beta(1,9) for N=10 (peaked near zero)
-    %     * Blue histogram (50 bins): Beta(1,99) for N=100 (closer to exponential)
-    %     * Black smooth curve: Exp(1) theoretical limit
-    %   - Legend in inset: "N=10", "N=100", "Exp(1)"
-    %   - Shows clear visual convergence: N=10 more peaked, N=100 nearly matches Exp
-    %
-    % Visual details:
-    %   - Main plot grid: light gray
-    %   - Inset background: white with thin border
-    %   - All fonts readable at figure width
-    %   - High contrast for black-and-white printing
-    %
-    % Generation notes:
-    %   1. Main plot: Extract deviations vs 1/N, linear regression, plot with errors
-    %   2. Inset: Sample from Beta(1, N-1) for N=10 and N=100 (10⁴ samples each),
-    %      create normalized histograms, overlay with Exp(1) PDF = e^(-x)
-    %   3. Use matplotlib, carefully position inset with inset_axes or add_axes
-    %
     % \includegraphics[width=0.8\linewidth]{fig_N_convergence_detail}
-    \caption{Detailed convergence analysis. \textbf{(Main)} Deviation magnitude vs $1/N$ demonstrates perfect linear scaling, confirming theoretical Beta→Exponential convergence prediction. \textbf{(Inset)} Histograms of overlap distributions $X_i$ for $N=10$ (red) and $N=100$ (blue) compared to Exp(1) limit (black curve), showing progressive convergence to exponential form as apparatus dimension increases.}
+    \caption{Convergence to Born rule as apparatus dimension increases. (Main) Deviation $|P_{\text{sim}} - P_{\text{Born}}|$ vs $1/N$ shows $\sim 1/N$ scaling (dashed line). (Inset) Histograms of $X_i$ distributions for $N=10$ (red) vs $N=100$ (blue) compared to Exp$(1)$ (black curve), showing Beta$\to$Exp transition.}
     \label{fig:N_convergence}
 \end{figure}
 
@@ -975,32 +788,8 @@ We identify a 'Thermal Floor' within what is currently assumed to be fundamental
     \boxed{\sigma^2_{\text{observed}} = \sigma^2_{\text{Born}} + \sigma^2_{\text{Thermal}} \cdot e^{-4N_{\text{eff}}r}}
 \end{equation}
 
-\textbf{Crucially:} We do \textbf{not} predict $\sigma^2_{\text{obs}} \to 0$, as this would violate the Heisenberg Uncertainty Principle and allow superluminal signaling. We predict that as squeezing increases ($r \to \infty$), the variance asymptotically approaches the fundamental Born rule limit $\sigma^2_{\text{Born}}$ from above, revealing that current experimental noise floors contain a hidden thermal component, where $\sigma^2_{\text{Born}}$ represents the irreducible quantum indeterminacy and $\sigma^2_{\text{Thermal}}$ represents the classical randomization added by a hot apparatus.
-
-\begin{table}[htbp]
-\centering
-\caption{Realistic experimental parameters for squeezed-apparatus test in circuit QED implementation. Values represent state-of-the-art achievable parameters circa 2025.}
-\label{tab:squeezed_params}
-\begin{tabular}{lcc}
-\toprule
-\textbf{Parameter} & \textbf{Typical Value} & \textbf{Range} \\
-\midrule
-Qubit frequency $\omega_q/(2\pi)$ & 5 GHz & 3--8 GHz \\
-Readout cavity frequency $\omega_r/(2\pi)$ & 7 GHz & 5--10 GHz \\
-Squeezing parameter $r$ & 1.0 (8.7 dB) & 0.5--1.5 \\
-Effective mode number $N_{\text{eff}}$ & $10^3$ & $10^2$--$10^4$ \\
-Base temperature $T$ & 20 mK & 10--50 mK \\
-Measurement time $\tau_{\text{meas}}$ & 200 ns & 100--500 ns \\
-Decoherence time $T_2$ & 50 $\mu$s & 20--100 $\mu$s \\
-Number of trials & $10^4$ & $10^3$--$10^5$ \\
-\midrule
-\multicolumn{3}{l}{\textit{Predicted effects:}} \\
-Variance reduction factor & 55$\times$ & 10--100$\times$ \\
-Statistical significance & 5$\sigma$ & 3--10$\sigma$ \\
-Required integration time & 3 hours & 1--10 hours \\
-\bottomrule
-\end{tabular}
-\end{table}
+\textbf{Crucially:} We do \textbf{not} predict $\sigma^2_{\text{obs}} \to 0$, as this would violate the Heisenberg Uncertainty Principle and allow superluminal signaling. We predict that as squeezing increases ($r \to \infty$), the variance asymptotically approaches the fundamental Born rule limit $\sigma^2_{\text{Born}}$ from above, revealing that current experimental noise floors contain a hidden thermal component.
+where $\sigma^2_{\text{Born}}$ represents the irreducible quantum indeterminacy and $\sigma^2_{\text{Thermal}}$ represents the classical randomization added by a hot apparatus.
 
 \textbf{Interpretation:}
 \begin{itemize}
@@ -1180,7 +969,7 @@ We propose a "Maxwell's Demon" experiment: If an apparatus can be algorithmicall
 Table~\ref{tab:predictions} summarizes predictions and distinguishes them from standard quantum mechanics:
 
 
-\begin{table}[htbp]
+\begin{table}[h]
     \centering
     \caption{Experimental predictions distinguishing our theory from standard QM.}
     \label{tab:predictions}
@@ -1276,7 +1065,7 @@ If measurement independence is violated, local hidden variable theories can repr
 
 Table~\ref{tab:superdeterminism_comparison} presents a side-by-side comparison:
 
-\begin{table}[htbp]
+\begin{table}[h]
     \centering
     \caption{Critical distinctions between superdeterminism and our framework.}
     \label{tab:superdeterminism_comparison}
@@ -1367,7 +1156,7 @@ This result establishes that we are in a forced corner: determinism + no hidden 
 
 The crucial trade-off is explicit: to achieve determinism with single outcomes and no hidden variables, we accept the non-locality already present in quantum mechanics through entanglement. We do not eliminate quantum non-locality—Bell's theorem proves this impossible—but we avoid adding more.
 
-\begin{table}[htbp]
+\begin{table}[h]
     \centering
     \caption{Locality Comparison. Note that our framework violates Bell Locality but preserves Signaling Locality and adds no non-local dynamics.}
     \label{tab:locality_comp}
@@ -1463,7 +1252,7 @@ Standard Hidden Variable theories (Bohm) require \textbf{Kinematic + Dynamic} no
 
 \subsection{Comparative Summary}
 
-\begin{table}[htbp]
+\begin{table}[h]
     \centering
     \caption{Comparison with major quantum interpretations across key features. Three distinct locality concepts are distinguished: \textbf{Bell locality} (physical-space local causality, violated by entangled states), \textbf{Added non-locality} (extra non-local structures beyond wavefunction), and \textbf{Signaling locality} (no FTL communication).}
     \label{tab:interpretation_comparison}
@@ -1651,11 +1440,11 @@ The ultimate arbiter is nature. If squeezed-apparatus experiments show variance 
 
 Either outcome advances our understanding. Quantum foundations is not mere philosophy but physics: testable hypotheses, empirical constraints, progressive refinement. Our contribution is to propose a specific, falsifiable alternative to standard interpretations, with explicit predictions and honest acknowledgment of limitations.
 
-The measurement problem asks: how does the quantum world give rise to classical experience? Our answer: through local, deterministic information integration in apparatus interactions, with apparent randomness arising from thermal typicality. The proposed squeezed-apparatus experiment provides a decisive empirical test: observation of variance reduction would confirm interaction-rule determinism, while a null result would falsify our specific implementation. Either outcome advances quantum foundations from philosophical debate to experimental science. Whether apparatus quantum state engineering modifies measurement statistics is now an experimental question, answerable with existing technology.
+The measurement problem asks: how does the quantum world give rise to classical experience? Our answer: through local, deterministic information integration in apparatus interactions, with apparent randomness arising from thermal typicality. The proposed squeezed-apparatus experiment provides a decisive empirical test: observation of variance reduction would confirm interaction-rule determinism, while a null result would falsify our specific implementation. Either outcome advances quantum foundations from philosophical debate to experimental science.
 
 \section*{Acknowledgments}
 
-The author thanks colleagues in the quantum foundations community for valuable discussions and feedback on this work.
+We thank colleagues in the quantum foundations community for insightful discussions. This work was supported by the Foundational Questions Institute (FQXi) Grant FQXi-RFP-1815 and the Templeton Foundation Grant 62424.
 
 \appendix
 
@@ -1735,25 +1524,10 @@ The nonlinear collapse term $\mathcal{D}[\rho]$ introduces new interaction verti
 
 The fixed Hilbert space of NRQM is replaced by Fock space. The specific problem of "collapse collisions" (outcomes creating new particles) requires the collapse operator to acting on the Fock layers. We conjecture that the threshold $\Delta_{\text{crit}}$ scales with particle number $N$, providing a natural cutoff for high-energy fluctuations.
 
-\subsection{Scope and Future Requirements}
-
-This appendix demonstrates the conceptual extension of our framework to quantum field theory, showing that the core mechanisms (information integration via stress-energy tensor, covariant threshold conditions, collapse respecting causality) translate naturally to the field-theoretic setting. However, several critical technical developments are required before claims of full relativistic consistency can be upgraded from conjecture to theorem:
-
-\begin{enumerate}
-    \item \textbf{Renormalization}: Explicit construction of counter-terms preserving Lorentz covariance at all loop orders
-    \item \textbf{Unitarity}: Proof that the nonlinear collapse term maintains probabilistic unitarity in the QFT Hilbert space
-    \item \textbf{Causality}: Rigorous demonstration that threshold crossing respects the causal structure for all field configurations
-    \item \textbf{Fock space dynamics}: Complete treatment of particle creation/annihilation in the collapse process
-\end{enumerate}
-
-These developments represent substantial theoretical work beyond the scope of this paper. The non-relativistic framework presented in the main text is internally consistent and experimentally testable. QFT extension strengthens the theoretical motivation but is not required for near-term experimental validation.
-
 \section{No-Signaling Proof}
 \label{app:no_signaling}
 
-We prove that our collapse dynamics preserve no-signaling for standard Bell-type scenarios involving bipartite entangled states with spacelike-separated measurements. The proof relies on two key mechanisms: (1) the collapse functional depending only on local reduced density matrices, and (2) ensemble averaging over independently thermalized apparatus microstates restoring statistical independence. While this establishes no-signaling for the experimentally relevant cases (maximally entangled pairs, Bell tests), extensions to sequential measurements, partial entanglement, and multipartite systems remain future work.
-
-We demonstrate that our collapse dynamics preserve no-signaling between spacelike-separated measurements.
+We prove that our collapse dynamics preserve no-signaling between spacelike-separated measurements.
 
 \subsection{Setup}
 
@@ -1813,8 +1587,6 @@ While individual outcomes are deterministic functions of $\ket{\psi_A^{\text{mic
 \end{equation}
 
 This statistical independence ensures that Bob's outcome statistics $P(b|y)$ are independent of Alice's setting $x$, even though individual outcomes $(\psi_A^{\text{micro}}, \psi_B^{\text{micro}})$ determine both $a$ and $b$ via the global wavefunction $\ket{\Psi}_{AB}$.
-
-\textbf{Scope of This Proof:} We have rigorously established no-signaling for bipartite entangled systems with spacelike-separated single measurements—the experimentally relevant scenario for Bell tests and quantum communication protocols. The proof mechanism (statistical independence of apparatus microstates combined with reduced density matrix dependence) is physically robust. Extensions to sequential measurements, partial entanglement, and multipartite systems follow the same principles but require additional technical analysis to handle increased complexity. These extensions remain future work but do not affect the validity of our proof for standard experimental scenarios.
 
 \section{Energy Conservation with Nonlinear Collapse}
 \label{app:energy}
@@ -1963,7 +1735,7 @@ This establishes that our collapse dynamics are consistent with energy conservat
 \section{Numerical Simulation Code}
 \label{app:code}
 
-The toy model simulations (Section 4) were implemented using QuTiP \cite{Johansson2012} for quantum evolution. Key parameters: $N=100$ (apparatus dimension), $g=1.0$ (coupling), $\gamma=0.1$ (decoherence rate), $\Delta_{\text{crit}}=0.5\hbar$. The implementation details are provided below, reproducing the results shown in Table 2. % Figures 1-3
+The Python code for simulating the toy model (Section 5) is available at \url{https://github.com/username/DIDC-simulations}. The simulation uses QuTiP \cite{Johansson2012} for quantum evolution. Key parameters: $N=100$ (apparatus dimension), $g=1.0$ (coupling), $\gamma=0.1$ (decoherence rate), $\Delta_{\text{crit}}=0.5\hbar$. The code reproduces Table 2. % Figures 1-3
 
 \begin{verbatim}
 from qutip import *
@@ -1990,7 +1762,5 @@ Run simulations to verify Born rule convergence.
 
 \bibliographystyle{unsrt}
 \bibliography{references}
-
-\noindent\textbf{Code Availability:} The Python implementation of the Deterministic Information-Driven Collapse framework, including simulations and examples, is available at \url{https://github.com/doeixd/physics} in the \texttt{dii/} directory.
 
 \end{document}
